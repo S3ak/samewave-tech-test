@@ -1,16 +1,31 @@
 $icon-font-path: "../media/fonts/";
 $fa-font-path: "../media/fonts/" !default;
-$slick-loader-path: "../media/img/" !default;
+$slick-loader-path: "../media/images/" !default;
 
-$ms-base: 6px;
+$ms-base: 8px;
 $ms-ratio: $golden;
 
+// $ms--xs: $ms-base;
+//   $ms--sm: floor((ms(2)));
+//   $ms--md: floor((ms(3)));
+//   $ms--lg: floor((ms(4)));
+//   $ms--xl: floor((ms(6)));
+//   $ms--xxl: floor((ms(10)));
+
 $ms--xs: $ms-base;
-  $ms--sm: floor((ms(2)));
-  $ms--md: floor((ms(3)));
-  $ms--lg: floor((ms(4)));
-  $ms--xl: floor((ms(6)));
-  $ms--xxl: floor((ms(10)));
+  $ms--sm: 12px;
+  $ms--md: 25px;
+  $ms--lg: 32px;
+  $ms--xl: 68px;
+  $ms--xxl: 188px;
+
+$font-size-base: 19px;
+  $font-size--xs: 16px;
+  $font-size--sm: $font-size-base;
+  $font-size--md: 28px;
+  $font-size--lg: 30px;
+  $font-size--xl: 44px;
+  $font-size--xxl: 68px;
 
 // The sequence continues with quaternary, quinary, senary, septenary, octonary, nonary, and denary
 $color--neutral: #fff; //white

@@ -3,7 +3,7 @@
 	.fixed {position: fixed;}
 
 .block {display: block}
-	.inline-block {display: inline-block;}
+	.inline {display: inline-block;}
 
 .opacity-0 {
 	opacity: 0;
@@ -15,7 +15,7 @@
 .full-width {width: 100%}
 	.half-width {width: 50%}
 .full-height {height: 100%}
-	.half-height {height: 49%}
+	.half-height {height: 50%}
 
 $size-list: (
 	'0'   : 0,
@@ -26,8 +26,6 @@ $size-list: (
 	'xl'  : $ms--xl,
 	'xxl' : $ms--xxl
 );
-
-$size-list-hardcoded: (8, 20, 40);
 
 $directions: (
 	'l': 'left',
@@ -58,14 +56,6 @@ $property: (
 	}
 }
 
-@each $property-short, $property-full in $property {
-	@each $direction-short, $direction-full in $directions {
-		@each $i in $size-list-hardcoded {
-			.#{$property-short}#{$direction-short}-#{$i} {#{$property-full}-#{$direction-full}: #{$i}px}
-		}
-	}
-}
-
 .m-auto {margin: auto;}
 	.m-l-auto  { margin-left: auto; }
 	.m-r-auto  { margin-right: auto; }
@@ -74,26 +64,6 @@ $property: (
 	.allow-trans-md {transition: all 0.5s ease}
 	.allow-trans-fs {transition: all 0.2s ease}
 
-
-	// @each $size-alias, $size-value in $size-list {
-	// 	$key: nth($size-list, 2);
-	// 	$map: map-get($size-list, $size-alias);
-	// 	@if $size-alias ==  xs {
-	// 		.border-style-#{$size-alias} {
-	// 			border-width: 1px;
-	// 			border-style: solid;
-	// 		}
-	// 	} @else if $size-alias == xxl {
-	// 		.border-style-#{$size-alias} {
-	// 			border-width: $map;
-	// 			border-style: solid;
-	// 		}
-	// 	} @else {
-	// 		.border-style-#{$size-alias} {
-	// 			border-width: $size-value;
-	// 			border-style: solid;
-	// 		}
-	// 	} // else
 	// } // each
 
 .font-xxs {font-size: $font-size-h6}
@@ -161,8 +131,6 @@ $property: (
 	.v-align-mid {vertical-align: middle}
 	.v-align-bottom {vertical-align: bottom}
 
-.block-center-v {@include size-tb(margin, auto);}
-
 .box-shadow-tb--xs {
 	box-shadow: inset 0px 5px 6px -5px rgba(50, 50, 50, 0.3),
 							inset 0px -5px 6px -5px rgba(50, 50, 50, 0.3);
@@ -197,8 +165,6 @@ $alignments-lr: (
 @each $align-alias, $align in $alignments-lr {
 	.text-#{$align-alias} {text-align: $align}
 }
-
-
 
 @media ( min-width: $screen-sm-min ) {
     // .text-top--sm    { vertical-align: top}

@@ -1,3 +1,57 @@
 header {
 
 }
+
+.icon-menu{
+      width: 50px;
+      height: 8px + $ms--xs * 3;
+      z-index: 1;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .icon-menu_atom {
+      position: absolute;
+      left: 0;
+      width: 50px;
+      height: 4px;
+      pointer-events:none;
+      background: $color--neutral;
+      @extend .allow-trans-fs;
+    }
+
+      .icon-menu_atom--top {
+          top: 0;
+        }
+
+        .icon-menu_atom--rotatedown {
+            transform: rotate(-45deg) !important;
+            top: 6px;
+          }
+
+      .icon-menu_atom--middle {
+        top: 4px + $ms--xs;
+      }
+
+        .icon-menu_atom--hide-middle {
+          opacity: 0
+        }
+
+      .icon-menu_atom--bottom {
+        top: 8px + $ms--xs * 2;
+      }
+
+        .icon-menu_atom--rotateup {
+          transform: rotate(45deg) !important;
+          top: 6px;
+        }
+
+.affix {
+  @extend .allow-trans-md;
+  top: 0;
+  z-index: z(navbar-fixed);
+  width: 100%;
+  margin-top: 0;
+  position: fixed;
+  box-shadow: 0px 3px 4px -2px rgba(0,0,0,0.75);
+}

@@ -12,7 +12,7 @@
   },
   "overrides": {
     "animate.css": {
-      "main": ""
+      "main": "README.md"
     }
   }
 }

@@ -9,7 +9,6 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
@@ -25,6 +24,77 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    <header class="color--dark-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center">Tasks
+              <button type="button" class="btn btn-null [animated bounceInDown ] pull-right" id="js-nav-trigger" data-wow-delay="0.2s">
+                <span class="sr-only">Toggle navigation</span>
+
+                <div class="icon-menu relative">
+                  <div class="icon-menu_atom icon-menu_atom--top"></div>
+                  <div class="icon-menu_atom icon-menu_atom--middle"></div>
+                  <div class="icon-menu_atom icon-menu_atom--bottom"></div>
+                </div>
+                <!-- /. icon-menu -->
+              </button>
+            </h1>
+
+          </div>
+          <!-- /. col -->
+        </div>
+        <!-- /. row -->
+      </div>
+      <!-- /. container -->
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <article class="col-xs-12">
+            <h2>Heading goes here</h2>
+            <div class="row">
+              <div class="col-xs-6 col-sm-8 progress-block">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="progress-bar">
+                    <input type="range" name="" min="0" max="100" step="1" value="30">
+                    <output for=""></output>
+                  </div>
+                  <!-- /. progress -->
+                </div>
+                <!-- /. col -->
+
+                <div class="col-sm-4">
+                  <p>100 of 100</p>
+                </div>
+                <!-- /. col -->
+              </div>
+              <!-- /. progress-block -->
+
+
+
+
+              </div>
+              <!-- /. progress-block -->
+
+              <div class="col-xs-6 col-sm-4 task-deadline [ text-uppercase text-right ]">
+                Due tomorrow
+              </div>
+              <!-- /. task-deadline -->
+            </div>
+            <!-- /. row -->
+
+            <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+          </article>
+        </div>
+        <!-- /. row -->
+        <hr>
+      </div>
+      <!-- /. container -->
+    </section>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
