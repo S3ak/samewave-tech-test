@@ -1,0 +1,51 @@
+$icon-font-path: "../media/fonts/";
+$fa-font-path: "../media/fonts/" !default;
+$slick-loader-path: "../media/img/" !default;
+
+$ms-base: 6px;
+$ms-ratio: $golden;
+
+$ms--xs: $ms-base;
+  $ms--sm: floor((ms(2)));
+  $ms--md: floor((ms(3)));
+  $ms--lg: floor((ms(4)));
+  $ms--xl: floor((ms(6)));
+  $ms--xxl: floor((ms(10)));
+
+// The sequence continues with quaternary, quinary, senary, septenary, octonary, nonary, and denary
+$color--neutral: #fff; //white
+  $color--stable: #b5becc; // grey
+  $color--dark: #191d24; // deep blue
+  $color--pri: #13afd7; // blue
+  $color--sec: #f06666; // red
+  $color--ter: #a1c269; // green
+  $color--qua: #f1be55; // Yellow
+
+$brand-colors: (
+  'neutral': $color--neutral,
+  'stable': $color--stable,
+  'dark': $color--dark,
+  'pri': $color--pri,
+  'sec': $color--sec,
+  'ter': $color--ter,
+  'qua': $color--qua
+);
+
+.color--neutral { color: $color--neutral;}
+  .color--stable { color: $color--stable;}
+  .color--dark { color: $color--dark;}
+  .color--pri { color: $color--pri;}
+  .color--sec { color: $color--sec;}
+  .color--ter { color: $color--ter;}
+
+.color--neutral-bg { background: $color--neutral;}
+  .color--stable-bg { background: $color--stable;}
+  .color--dark-bg { background: $color--dark;}
+  .color--pri-bg { background: $color--pri;}
+  .color--sec-bg { background: $color--sec;}
+  .color--ter-bg { background: $color--ter;}
+
+$font--pri--reg: montserrat;
+  $font-pri--bold: montserrat--bold;
+
+$font--sec--reg: adelle;

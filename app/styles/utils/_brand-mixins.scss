@@ -1,0 +1,18 @@
+/// Helper to size an element
+/// @author Hugo Giraudel
+/// @param {Length} $width
+/// @param {Length} $height
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin size-tb($property, $width, $height: $width) {
+  #{$property}-top: $width;
+  #{$property}-bottom: $height;
+}
+
+@mixin size-lr($property, $left, $right: $left) {
+  #{$property}-left: $left;
+  #{$property}-right: $right;
+}

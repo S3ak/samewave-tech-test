@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 node_modules
 dist
 .tmp
 .sass-cache
 bower_components
 *.sublime-project
-=======
-node_modules/
-bower_components/
-*.log
-
-build/
-dist/
->>>>>>> b8a5561f5d7aa318a020d59a8ab60b8d91f2f8d8

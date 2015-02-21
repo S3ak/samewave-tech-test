@@ -1,0 +1,234 @@
+.absolute {position: absolute;}
+	.relative {position: relative;}
+	.fixed {position: fixed;}
+
+.block {display: block}
+	.inline-block {display: inline-block;}
+
+.opacity-0 {
+	opacity: 0;
+}
+	.opacity-1 {
+		opacity: 1;
+	}
+
+.full-width {width: 100%}
+	.half-width {width: 50%}
+.full-height {height: 100%}
+	.half-height {height: 49%}
+
+$size-list: (
+	'0'   : 0,
+	'xs'  : $ms--xs,
+	'sm'  : $ms--sm,
+	'md'  : $ms--md,
+	'lg'  : $ms--lg,
+	'xl'  : $ms--xl,
+	'xxl' : $ms--xxl
+);
+
+$size-list-hardcoded: (8, 20, 40);
+
+$directions: (
+	'l': 'left',
+	't': 'top',
+	'r': 'right',
+	'b': 'bottom'
+);
+
+$property: (
+	'm': 'margin',
+	'p': 'padding'
+);
+
+@each $property-alias, $property-full in $property {
+	@each $size-alias, $size-value in $size-list {
+		.#{$property-alias}4-#{$size-alias} {
+			@include size-tb($property-full, $size-value);
+			@include size-lr($property-full, $size-value);
+		}
+	}
+}
+
+@each $property-short, $property-full in $property {
+	@each $direction-short, $direction-full in $directions {
+		@each $size-name, $size-value in $size-list {
+			.#{$property-short}#{$direction-short}-#{$size-name} {#{$property-full}-#{$direction-full}: $size-value}
+		}
+	}
+}
+
+@each $property-short, $property-full in $property {
+	@each $direction-short, $direction-full in $directions {
+		@each $i in $size-list-hardcoded {
+			.#{$property-short}#{$direction-short}-#{$i} {#{$property-full}-#{$direction-full}: #{$i}px}
+		}
+	}
+}
+
+.m-auto {margin: auto;}
+	.m-l-auto  { margin-left: auto; }
+	.m-r-auto  { margin-right: auto; }
+
+.allow-trans-sl {transition: all 1s ease}
+	.allow-trans-md {transition: all 0.5s ease}
+	.allow-trans-fs {transition: all 0.2s ease}
+
+
+	// @each $size-alias, $size-value in $size-list {
+	// 	$key: nth($size-list, 2);
+	// 	$map: map-get($size-list, $size-alias);
+	// 	@if $size-alias ==  xs {
+	// 		.border-style-#{$size-alias} {
+	// 			border-width: 1px;
+	// 			border-style: solid;
+	// 		}
+	// 	} @else if $size-alias == xxl {
+	// 		.border-style-#{$size-alias} {
+	// 			border-width: $map;
+	// 			border-style: solid;
+	// 		}
+	// 	} @else {
+	// 		.border-style-#{$size-alias} {
+	// 			border-width: $size-value;
+	// 			border-style: solid;
+	// 		}
+	// 	} // else
+	// } // each
+
+.font-xxs {font-size: $font-size-h6}
+	.font-xs {font-size: $font-size-h5}
+	.font-sm {font-size: $font-size-h4}
+	.font-md {font-size: $font-size-h3}
+	.font-lg {font-size: $font-size-h2}
+	.font-xl {font-size: $font-size-h1}
+	.font-xxl {font-size: $font-size-h1}
+
+.border-style-0 {
+	border-width: 0;
+	border-style: solid;
+}
+	.border-style-xs {
+		border-width: 1px;
+		border-style: solid;
+	}
+	.border-style-sm {
+		border-width: $ms--sm;
+		border-style: solid;
+	}
+	.border-style-md {
+		border-width: $ms--md;
+		border-style: solid;
+	}
+	.border-style-lg {
+		border-width: $ms--lg;
+		border-style: solid;
+	}
+
+.border-radius--xs {
+
+}
+	.border-radius--sm {
+		border-radius: 5px;
+	}
+
+@each $brand-alias, $brand-color in $brand-colors {
+	.border--#{$brand-alias} {
+		border-color: $brand-color;
+		@extend .allow-trans-sl;
+		&:hover {
+			border-color: lighten($brand-color, 15);
+		}
+	} // border
+} // each
+
+.flex {display: flex;}
+	.flex-0 {
+		display: flex;
+		flex: 0 1 auto;
+	}
+	.flex-1 {
+		display: flex;
+		flex: 0 1 auto;
+	}
+
+.z-default {z-index: z(default)}
+	.z-below {z-index: z(below)}
+	.z-above {z-index: z(above)}
+	.z-pit {z-index: z(bottomless-pit)}
+
+.v-align-top {vertical-align: top}
+	.v-align-mid {vertical-align: middle}
+	.v-align-bottom {vertical-align: bottom}
+
+.block-center-v {@include size-tb(margin, auto);}
+
+.box-shadow-tb--xs {
+	box-shadow: inset 0px 5px 6px -5px rgba(50, 50, 50, 0.3),
+							inset 0px -5px 6px -5px rgba(50, 50, 50, 0.3);
+}
+
+.hover--pulse:hover {
+	@extend .animated;
+	@extend .pulse;
+}
+
+/* Responsive Classes
+============================= */
+
+/* Media Query Based Alignmenmt */
+
+$alignments-tb: (
+  't': top,
+  'm': middle,
+  'b': bottom
+);
+
+$alignments-lr: (
+	'l': left,
+	'c': center,
+	'r': right
+);
+
+@each $align-alias, $align in $alignments-tb {
+	.align-#{$align-alias} {vertical-align: $align}
+}
+
+@each $align-alias, $align in $alignments-lr {
+	.text-#{$align-alias} {text-align: $align}
+}
+
+
+
+@media ( min-width: $screen-sm-min ) {
+    // .text-top--sm    { vertical-align: top}
+	@each $align-alias, $align in $alignments-tb {
+		.text-#{$align-alias}--sm {vertical-align: $align}
+	}
+    // .text-left--sm   { text-align: left}
+	@each $align-alias, $align in $alignments-lr {
+		.text-#{$align-alias}--sm {text-align: $align}
+	}
+}
+
+@media ( min-width: $screen-md-min ) {
+    // .text-top--md    { vertical-align: top}
+	@each $align-alias, $align in $alignments-tb {
+		.text-#{$align-alias}--md {vertical-align: $align}
+	}
+    // .text-left--md   { text-align: left}
+	@each $align-alias, $align in $alignments-lr {
+		.text-#{$align-alias}--md {text-align: $align}
+	}
+}
+
+@media ( min-width: $screen-lg-min ) {
+    // .text-top--lg    { vertical-align: top}
+	@each $align-alias, $align in $alignments-tb {
+		.text-#{$align-alias}--lg {vertical-align: $align}
+	}
+    // .text-left--lg   { text-align: left}
+	@each $align-alias, $align in $alignments-lr {
+		.text-#{$align-alias}--lg {text-align: $align}
+	}
+}
