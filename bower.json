@@ -5,7 +5,8 @@
     "bootstrap-sass-official": "~3.2.0",
     "modernizr": "~2.8.2",
     "animate.css": "~3.2.1",
-    "fontawesome": "~4.3.0"
+    "fontawesome": "~4.3.0",
+    "pushy": "~0.9.2"
   },
   "devDependencies": {
     "modular-scale": "~2.0.6"
