@@ -1,0 +1,1047 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"import",
+				"import"
+			],
+			[
+				"scre",
+				"screen-lg-min	screen-lg-min"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"colo",
+				"color--neutral"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"rgB",
+				"rgba()"
+			],
+			[
+				"color",
+				"color-pri"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fl",
+				"fl	float: ${1:left};"
+			],
+			[
+				"scree",
+				"screen-sm-min	screen-sm-min"
+			],
+			[
+				"colro",
+				"color-pri"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"sc",
+				"screen-md-min	screen-md-min"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"screen",
+				"screen-sm-min	screen-sm-min"
+			],
+			[
+				"po",
+				"pos-a	position: absolute;"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"border-bottom",
+				"border-bottom-width"
+			],
+			[
+				"rgab",
+				"rgba()"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"val",
+				"valHero"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"su",
+				"substring"
+			],
+			[
+				"one",
+				"onehero"
+			],
+			[
+				"ke",
+				"keydown	.keydown()"
+			],
+			[
+				"replace",
+				"replaceWith	.replaceWith()"
+			],
+			[
+				"key",
+				"keyup	.keyup()"
+			],
+			[
+				"response",
+				"responseList"
+			],
+			[
+				"output",
+				"outputHero"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"get",
+				"get	.get()"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ani",
+				"animate	animate"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"html",
+				"html	.html"
+			],
+			[
+				"evt",
+				"evt"
+			],
+			[
+				"high",
+				"highlighted"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"name",
+				"name=  (attribute)"
+			],
+			[
+				"hmtl",
+				"html	.html"
+			],
+			[
+				"ap",
+				"append	.append"
+			],
+			[
+				"bookmark",
+				"Bookmark"
+			],
+			[
+				"str",
+				"strWhichTag"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"prep",
+				"prependTo	.prependTo()"
+			],
+			[
+				"app",
+				"appendTo	.appendTo()"
+			],
+			[
+				"p",
+				"paragraph"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"locl",
+				"localhost"
+			],
+			[
+				"class",
+				"class	Attr"
+			],
+			[
+				"background-c",
+				"background-color:   (property)"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"bottom",
+				"border-bottom:   (property)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rev",
+				"Side Bar: Reveal File"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"reveal",
+				"Side Bar: Reveal File"
+			],
+			[
+				"comment",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"common",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"reveae",
+				"Side Bar: Reveal File"
+			],
+			[
+				"comem",
+				"Snippet: Comment - Subsection comment"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"bea",
+				"SassBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"section",
+				"Snippet: Comment - Full section comment"
+			],
+			[
+				"reve",
+				"Side Bar: Reveal File"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"cli",
+				"Clipboard Manager: Choose & Paste"
+			],
+			[
+				"clip",
+				"Clipboard Manager: Show History"
+			],
+			[
+				"commetn",
+				"Snippet: Comment - Block style comment"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown HTML Preview"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"borw",
+				"Preferences: Browse Packages"
+			],
+			[
+				"revl",
+				"Side Bar: Reveal File"
+			],
+			[
+				"alig",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"aligne",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"lise",
+				"Package Control: List Packages"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"file",
+				"Focus File on Sidebar"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"REVEA",
+				"Snippet: .removeClass()"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"gi",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"save ",
+				"Project: Save As"
+			],
+			[
+				"revea",
+				"File: Reveal"
+			],
+			[
+				"savea",
+				"Project: Save As"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source"
+	],
+	"file_history":
+	[
+		"/C/GeDoSaTo/config/ffxiiiimg/GeDoSaTo.ini",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Bmoe/party 2014/HTML/app/scripts/main.js",
+		"/D/library_vault/drop/Dropbox/dev/Ghost/ghost-0.5.3/core/server/api/configuration.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/Gruntfile.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/styles/main.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/slick.js/slick/slick.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/scripts/main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/styles/_settings.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/index.html",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/slick.js/package.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/dist/index.html",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/styles/main.css",
+		"/D/library_vault/drop/Dropbox/dev/Ghost/ghost-0.5.3/Gruntfile.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/slick.js/slick/slick.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/package.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/dist/scripts/4c711aee.main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/img-apng.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/number/MAX_INT.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/toNumber.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/nav-timing.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/notification.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/FXG Westgate assessment.sublime-project",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/.sass-cache/0e433b45a625e510c22c0f65a80e9ca679991369/_settings.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/sache.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/buffer-overrun.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/elem-output.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/elem-ruby.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/elem-track.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-mocha/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/adm-zip/.idea/scopes/scope_settings.xml",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/test/js/setup.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-contrib-sass/docs/sass-examples.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/.sass-cache/d030695875e9b7ad419d1f00d93aa5a8e0049c5c/_variables.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/.sass-cache/9d9aec1ad1491a25d5439c273239204ed062aa11/_bootstrap.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/colour-pallete.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/CBR Test/html/Colour Pallete.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/dist/styles/775f79f8.main.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/Comic book assessment.sublime-project",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-connect/node_modules/portscanner/lib/portscanner.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/isPlainObject.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/package.json",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-sass/docs/sass-examples.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/sache.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/index.html",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/scripts/main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/styles/main.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/CBR Test/brief.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/styles/_settings.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/villain.php",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/nav-timing.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-jshint/node_modules/jshint/data/non-ascii-identifier-start.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/feature-detects/notification.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-concat/tasks/lib/comment.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/Gruntfile.js",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/test/js/setup.js",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/test/bower_components/chai/README.md",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-cssmin/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/node_modules/pako/dist/pako.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/feature-detects/pointerlock-api.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/number/MAX_INT.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/font-awesome/less/mixins.less",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/object/mixIn.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/issue-59.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/font-awesome/scss/_mixins.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_mixins.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-mocha/node_modules/.bin/_mocha",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-modernizr/_assets/grunt-modernizr.sublime-project",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/jquery/src/attributes/prop.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt/node_modules/glob/test/pause-resume.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/data/prefixes.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeEditorsNSData.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/array/reject.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/.sass-cache/b6e0ce18d3431b1ffb112ec64919ead0bd22f847/main.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/hero.php",
+		"/D/library_vault/drop/Dropbox/dev/tutorials/Lynda.com - Javascript and AJAX/Exercise Files/04-02/workingfolder/ajax/data.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/input-number.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
+		"/D/library_vault/googledrive/Documents/D.E.A.D Tau/Digital Blacksmith proper/clients/Seak Digital/Comic Book website/Comic-Book-Colour-Swatch.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/comic_publishers.php",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/test/caniuse_files/ga.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/test.txt",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/.sass-cache/894d0483ec3e7f9403408879befe627741c75c0c/_text-emphasis.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.sass-cache/cae6753c0b3a78f94b368754401c297ea8f17334/_buttons.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.sass-cache/be0a2f1b1e97153a773c0be0fe3d3fe547ed75bd/_buttons.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/postcss/node_modules/js-base64/base64_utf8",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/web fonts/stylesheet.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.tmp/styles/main.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.sass-cache/b6e0ce18d3431b1ffb112ec64919ead0bd22f847/main.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/app/styles/main.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-wiredep/node_modules/wiredep/lib/inject-dependencies.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/app/index.html",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-contrib-sass/docs/sass-examples.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/sache.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/font-awesome/scss/_variables.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-mocha/phantomjs/main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/app/scripts/main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slick",
+			"hint",
+			"wiredep",
+			"cssmin",
+			"true",
+			"col-md-4",
+			"color--neautral",
+			"aside-nav",
+			"jshint",
+			"left",
+			"nav",
+			"aside",
+			"h2",
+			"content-body",
+			"content-header",
+			"buttons",
+			"info",
+			"darken(",
+			"-bg, 5%",
+			"-bg",
+			"border",
+			"class=\"\"",
+			"img-responsive",
+			"<li>",
+			"margin",
+			"div",
+			"90px",
+			"content-pad",
+			"span",
+			"accent",
+			"h5",
+			"sub-searc\"",
+			"sub-searc",
+			"div",
+			"class=\"sec-",
+			";\n",
+			"fa-2x",
+			"pri",
+			"\"twitter-control",
+			"twitter-control",
+			"3x",
+			"fa ",
+			"article",
+			"twitter-control-con",
+			"div",
+			"content-header",
+			"col-md-9 ",
+			".font-size-",
+			"size-",
+			"color-accent",
+			"$headings-line-height",
+			"line-height",
+			"-1px",
+			"margin-bottom",
+			".nav-justified",
+			"nav-justified",
+			"orbit",
+			"h2",
+			"link",
+			"a {",
+			"$nav-tabs-link-hover-border-color",
+			".nav-tabs",
+			"nav-tabs",
+			".nav-tabs",
+			".nav-tabs.nav-justified",
+			"tab-",
+			"-",
+			"Pri",
+			".nav-tabs",
+			"nav-tabs",
+			".nav {",
+			"padding",
+			"tab",
+			"radius",
+			"hrs",
+			"button",
+			"i",
+			"lli",
+			"div",
+			"true",
+			"pills",
+			"autoprefixer",
+			"slider",
+			"autoprefixer",
+			"grunt-autoprefixer",
+			"@mixin box-shadow",
+			"box-shadow",
+			"$modal-content-bg",
+			"modal",
+			"danger",
+			"input",
+			"z-index",
+			"$zindex-navbar",
+			"z-inde",
+			"js-input-hero-results",
+			"heroResults",
+			"valVil",
+			"heroResultItem",
+			"js-input-hero-results",
+			"  $('.js-input-hero-results-items').click(function() {\n    heroResultItem = $(this).text();\n  });",
+			"js-input-hero-results-items",
+			"s-input-hero-results-items",
+			"heroResultItem ",
+			"js-inputHeroVal-results",
+			"js-input-hero-results-items",
+			"valHero",
+			"input-hero-results",
+			"hide",
+			"output",
+			"ul",
+			"output",
+			"results-hero-list",
+			"hint",
+			"keydown",
+			"key",
+			"s-inputHeroVal-results",
+			"heroResults",
+			"valHero",
+			"control-label\"",
+			"results-hero-list",
+			"$('#js-inputHeroVal-results')",
+			"js-input-hero-results",
+			"Things",
+			"results-hero-item",
+			"valHero",
+			"urlpub",
+			"urlPub",
+			"urlpub"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clipboard_manager":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"project": "samewave tech test.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"app\\index.html"
+			],
+			[
+				"main",
+				"app\\styles\\main.scss"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"mian",
+				"app\\scripts\\main.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"button",
+				"bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap\\_buttons.scss"
+			],
+			[
+				"main.js",
+				"app\\scripts\\main.js"
+			],
+			[
+				"_se",
+				"app\\styles\\_settings.scss"
+			],
+			[
+				"nav",
+				"bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap\\_navs.scss"
+			],
+			[
+				"_settigns",
+				"app\\styles\\_settings.scss"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"index",
+				"app\\index.html"
+			],
+			[
+				"_variabe",
+				"bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap\\_variables.scss"
+			],
+			[
+				"colour",
+				"colour-pallete.md"
+			],
+			[
+				"pakc",
+				"package.json"
+			],
+			[
+				"_modals",
+				"bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap\\_modals.scss"
+			],
+			[
+				"_settings",
+				"app\\styles\\_settings.scss"
+			],
+			[
+				"main.scss",
+				"app\\styles\\main.scss"
+			],
+			[
+				"test",
+				"app\\test.txt"
+			],
+			[
+				"buttons.scss",
+				"bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap\\_buttons.scss"
+			],
+			[
+				"idne",
+				"app\\index.html"
+			],
+			[
+				"idnex",
+				"app\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\library_vault\\drop\\Dropbox\\DBS\\Clients\\Seak Digital\\Comic Book Website\\html\\app\\CBR test Ford.sublime-project"
+			],
+			[
+				"westage",
+				"D:\\library_vault\\drop\\Dropbox\\DBS\\Clients\\Seak Digital\\FXG assignment\\html\\FXG Westgate assessment.sublime-project"
+			],
+			[
+				"comic",
+				"D:\\library_vault\\drop\\Dropbox\\DBS\\Clients\\Seak Digital\\Comic Book Website\\html\\Comic book assessment.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
