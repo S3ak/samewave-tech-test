@@ -1,3 +1,10 @@
+(function setRange(){
+  'use strict';
+  var valueAmt = 80;
+  $('#js-range-1').attr('value', valueAmt);
+  $('#js-range-result-1').text(valueAmt);
+})();
+
 $(function(){
   'use strict';
   var menuMorph = function() {
@@ -9,4 +16,8 @@ $(function(){
   $('#js-nav-trigger, .site-overlay').on('click', function() {
     menuMorph();
   });
+
+  var headerHeight = $('header').height();
+
+  $('.pushy, .site-overlay').css('top', headerHeight);
 });

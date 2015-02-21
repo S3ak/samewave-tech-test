@@ -34,12 +34,12 @@
       </ul>
   </nav>
 
-    <header class="color--dark-bg">
+    <header class="color--dark-bg" id="js-header">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <h1 class="text-center">Tasks
-              <button type="button" class="btn btn-null menu-btn push [animated bounceInDown ] pull-right" id="js-nav-trigger" data-wow-delay="0.2s">
+              <button type="button" class="btn btn-null menu-btn [animated bounceInDown ] pull-right" id="js-nav-trigger" data-wow-delay="0.2s">
                 <span class="sr-only">Toggle navigation</span>
 
                 <div class="icon-menu relative">
@@ -72,7 +72,7 @@
               <div class="row">
                 <div class="col-sm-8">
                   <div class="progress-bar">
-                    <input type="range" name="" min="0" max="100" step="1" value="30">
+                    <input type="range" name="new" min="0" max="100" step="1" id="js-range-1">
                     <output for=""></output>
                   </div>
                   <!-- /. progress -->
@@ -80,7 +80,7 @@
                 <!-- /. col -->
 
                 <div class="col-sm-4">
-                  <p>100 of 100</p>
+                  <p><span id="js-range-result-1">100</span> of 100</p>
                 </div>
                 <!-- /. col -->
               </div>
