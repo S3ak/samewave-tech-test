@@ -19,6 +19,9 @@
     },
     "headroom.js": {
       "main": ["dist/headroom.js", "dist/jQuery.headroom.js"]
+    },
+    "pushy": {
+      "main": ["js/pushy.js"]
     }
   }
 }

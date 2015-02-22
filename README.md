@@ -20,4 +20,4 @@ Creator: Monde Sineke <nsineke@gmail.com>
 - [ ] add favicon
 - [ ] add promises to ajax call
 - [ ] Style Nav
-- [ ] Fix header to top
+- [x] Fix header to top

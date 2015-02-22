@@ -11,7 +11,6 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="bower_components/pushy/css/pushy.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -27,178 +26,177 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <!-- Pushy Menu -->
   <nav class="pushy pushy-left">
-      <ul class="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Settings</a></li>
-      </ul>
-</nav>
+    <ul class="list-unstyled">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
 
-    <header class="color--dark-bg header--fixed [ wow bounceInDown ] allow-trans-md" id="js-header">
-      <div class="container">
+  <header class="color--dark-bg header--fixed [ wow bounceInDown ] allow-trans-md" id="js-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 header_inner">
+          <h1 class="text-center"><span class="wow bounceInDown" data-wow-delay="0.2s">Tasks</span>
+            <a class="menu-btn [ wow bounceInRight ] pull-right" id="js-nav-trigger" data-wow-delay="0.4s">
+              <span class="sr-only">Toggle navigation</span>
+
+              <div class="icon-menu relative">
+                <div class="icon-menu_atom allow-trans-fs icon-menu_atom--top"></div>
+                <div class="icon-menu_atom allow-trans-fs icon-menu_atom--middle"></div>
+                <div class="icon-menu_atom allow-trans-fs icon-menu_atom--bottom"></div>
+              </div>
+              <!-- /. icon-menu -->
+            </a>
+          </h1>
+
+        </div>
+        <!-- /. col -->
+      </div>
+      <!-- /. row -->
+    </div>
+    <!-- /. container -->
+  </header>
+
+  <!-- Site Overlay -->
+  <div class="site-overlay"></div>
+
+  <section class="body-content">
+    <div class="container" id="js-main">
+      <div class="task-item wow bounceInLeft" id="js-task-item-static-1" data-wow-delay="0.2s">
         <div class="row">
-          <div class="col-xs-12 header_inner">
-            <h1 class="text-center"><span class="wow bounceInDown" data-wow-delay="0.2s">Tasks</span>
-              <a class="menu-btn [ wow bounceInRight ] pull-right" id="js-nav-trigger" data-wow-delay="0.4s">
-                <span class="sr-only">Toggle navigation</span>
+          <article class="col-xs-12">
+            <h2 class="txt-title">This is a green task</h2>
+            <div class="row">
+              <div class="col-xs-5 col-sm-8 progress-block">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="task-progress-bar task-progress-bar--ter">
+                      <input type="range" name="" min="0" max="100" step="1" id="js-range-static-1" disabled>
+                    </div>
+                    <!-- /. progress -->
+                  </div>
+                  <!-- /. col -->
 
-                <div class="icon-menu relative">
-                  <div class="icon-menu_atom allow-trans-fs icon-menu_atom--top"></div>
-                  <div class="icon-menu_atom allow-trans-fs icon-menu_atom--middle"></div>
-                  <div class="icon-menu_atom allow-trans-fs icon-menu_atom--bottom"></div>
+                  <div class="col-sm-4">
+                    <p class="task-progress-score"><span id="js-range-result-static-1" class="color--ter">0</span> of <span class="color--ter">100</span></p>
+                  </div>
+                  <!-- /. col -->
                 </div>
-                <!-- /. icon-menu -->
-              </a>
-            </h1>
+                <!-- /. progress-block -->
+              </div>
+              <!-- /. progress-block -->
 
-          </div>
-          <!-- /. col -->
+              <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
+                Due tomorrow
+              </div>
+              <!-- /. task-deadline -->
+            </div>
+            <!-- /. row -->
+
+            <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+          </article>
         </div>
         <!-- /. row -->
+        <hr>
       </div>
-      <!-- /. container -->
-    </header>
+      <!-- /. task-item -->
 
-    <!-- Site Overlay -->
-    <div class="site-overlay"></div>
-
-    <section class="body-content">
-      <div class="container" id="js-main">
-        <div class="task-item wow bounceInLeft" id="js-task-item-static-1" data-wow-delay="0.2s">
-          <div class="row">
-            <article class="col-xs-12">
-              <h2 class="txt-title">This is a green task</h2>
-              <div class="row">
-                <div class="col-xs-5 col-sm-8 progress-block">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="task-progress-bar task-progress-bar--ter">
-                        <input type="range" name="" min="0" max="100" step="1" id="js-range-static-1" disabled>
-                      </div>
-                      <!-- /. progress -->
+      <div class="task-item wow bounceInLeft" id="js-task-item-static-2" data-wow-delay="0.4s">
+        <div class="row">
+          <article class="col-xs-12">
+            <h2 class="txt-title">This is a really long amber task</h2>
+            <div class="row">
+              <div class="col-xs-5 col-sm-8 progress-block">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="task-progress-bar task-progress-bar--qua">
+                      <input type="range" name="" min="0" max="100" step="1" id="js-range-static-2" disabled>
                     </div>
-                    <!-- /. col -->
-
-                    <div class="col-sm-4">
-                      <p class="task-progress-score"><span id="js-range-result-static-1" class="color--ter">0</span> of <span class="color--ter">100</span></p>
-                    </div>
-                    <!-- /. col -->
+                    <!-- /. progress -->
                   </div>
-                  <!-- /. progress-block -->
+                  <!-- /. col -->
+
+                  <div class="col-sm-4">
+                    <p class="task-progress-score"><span id="js-range-result-static-2" class="color--qua">0</span> of <span class="color--qua">100</span></p>
+                  </div>
+                  <!-- /. col -->
                 </div>
                 <!-- /. progress-block -->
-
-                <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
-                  Due tomorrow
-                </div>
-                <!-- /. task-deadline -->
               </div>
-              <!-- /. row -->
+              <!-- /. progress-block -->
 
-              <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
-            </article>
-          </div>
-          <!-- /. row -->
-          <hr>
+              <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
+                Due tomorrow
+              </div>
+              <!-- /. task-deadline -->
+            </div>
+            <!-- /. row -->
+
+            <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+          </article>
         </div>
-        <!-- /. task-item -->
+        <!-- /. row -->
+        <hr>
+      </div>
+      <!-- /. task-item -->
 
-        <div class="task-item wow bounceInLeft" id="js-task-item-static-2" data-wow-delay="0.4s">
-          <div class="row">
-            <article class="col-xs-12">
-              <h2 class="txt-title">This is a really long amber task</h2>
-              <div class="row">
-                <div class="col-xs-5 col-sm-8 progress-block">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="task-progress-bar task-progress-bar--qua">
-                        <input type="range" name="" min="0" max="100" step="1" id="js-range-static-2" disabled>
-                      </div>
-                      <!-- /. progress -->
+      <div class="task-item wow bounceInLeft" id="js-task-item-static-3" data-wow-delay="0.6s">
+        <div class="row">
+          <article class="col-xs-12">
+            <h2 class="txt-title color--stable"><i>This is a paused task</i></h2>
+            <div class="row">
+              <div class="col-xs-5 col-sm-8 progress-block">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="task-progress-bar task-progress-bar--stable">
+                      <input type="range" name="" min="0" max="100" step="1" id="js-range-static-3" disabled>
                     </div>
-                    <!-- /. col -->
-
-                    <div class="col-sm-4">
-                      <p class="task-progress-score"><span id="js-range-result-static-2" class="color--qua">0</span> of <span class="color--qua">100</span></p>
-                    </div>
-                    <!-- /. col -->
+                    <!-- /. progress -->
                   </div>
-                  <!-- /. progress-block -->
+                  <!-- /. col -->
+
+                  <div class="col-sm-4">
+                    <p class="task-progress-score"><span id="js-range-result-static-3" class="color--stable">0</span> of <span class="color--stable">100</span></p>
+                  </div>
+                  <!-- /. col -->
                 </div>
                 <!-- /. progress-block -->
-
-                <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
-                  Due tomorrow
-                </div>
-                <!-- /. task-deadline -->
               </div>
-              <!-- /. row -->
+              <!-- /. progress-block -->
 
-              <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
-            </article>
-          </div>
-          <!-- /. row -->
-          <hr>
-        </div>
-        <!-- /. task-item -->
+              <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
 
-        <div class="task-item wow bounceInLeft" id="js-task-item-static-3" data-wow-delay="0.6s">
-          <div class="row">
-            <article class="col-xs-12">
-              <h2 class="txt-title color--stable"><i>This is a paused task</i></h2>
-              <div class="row">
-                <div class="col-xs-5 col-sm-8 progress-block">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <div class="task-progress-bar task-progress-bar--stable">
-                        <input type="range" name="" min="0" max="100" step="1" id="js-range-static-3" disabled>
-                      </div>
-                      <!-- /. progress -->
-                    </div>
-                    <!-- /. col -->
-
-                    <div class="col-sm-4">
-                      <p class="task-progress-score"><span id="js-range-result-static-3" class="color--stable">0</span> of <span class="color--stable">100</span></p>
-                    </div>
-                    <!-- /. col -->
-                  </div>
-                  <!-- /. progress-block -->
-                </div>
-                <!-- /. progress-block -->
-
-                <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
-
-                </div>
-                <!-- /. task-deadline -->
               </div>
-              <!-- /. row -->
+              <!-- /. task-deadline -->
+            </div>
+            <!-- /. row -->
 
-              <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
-            </article>
-          </div>
-          <!-- /. row -->
-          <hr>
+            <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+          </article>
         </div>
-        <!-- /. task-item -->
-
+        <!-- /. row -->
+        <hr>
       </div>
-      <!-- /. container -->
-    </section>
+      <!-- /. task-item -->
 
-    <footer>
-      <div class="container">
-        <a href="#" class="footer-button fixed full-width">
-          <!-- not polyfill for IE 8 + Android 2.3 added. -->
-          <svg  class="btn-add" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-            <path d="M50 0C22.386 0 0 22.4 0 50s22.386 50 50 50s50-22.386 50-50S77.614 0 50 0L50 0z"/>
-            <path d="M70.863 45.789H54.211V29.137C54.211 26.9 52.3 25 50 25c-2.325 0-4.209 1.852-4.21 4.137v16.653H29.137 C26.852 45.8 25 47.7 25 50s1.852 4.2 4.1 4.21H45.79v16.653C45.79 73.1 47.7 75 50 75c2.325 0 4.211-1.852 4.211-4.137 V54.21h16.653C73.148 54.2 75 52.3 75 50S73.148 45.8 70.9 45.789z"/>
-          </svg>
-        </a>
-      </div>
-      <!-- /. container -->
-    </footer>
+    </div>
+    <!-- /. container -->
+  </section>
+
+  <footer>
+    <div class="container">
+      <a href="#" class="footer-button fixed full-width">
+        <!-- not polyfill for IE 8 + Android 2.3 added. -->
+        <svg class="btn-add center-block animated flipInY" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+          <path d="M50 0C22.386 0 0 22.4 0 50s22.386 50 50 50s50-22.386 50-50S77.614 0 50 0L50 0z"/>
+          <path d="M70.863 45.789H54.211V29.137C54.211 26.9 52.3 25 50 25c-2.325 0-4.209 1.852-4.21 4.137v16.653H29.137 C26.852 45.8 25 47.7 25 50s1.852 4.2 4.1 4.21H45.79v16.653C45.79 73.1 47.7 75 50 75c2.325 0 4.211-1.852 4.211-4.137 V54.21h16.653C73.148 54.2 75 52.3 75 50S73.148 45.8 70.9 45.789z"/>
+        </svg>
+      </a>
+    </div>
+    <!-- /. container -->
+  </footer>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
