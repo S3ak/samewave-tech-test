@@ -1,6 +1,20 @@
 {
   "name": "SameWave tech test",
-  "private": true,
+  "description": "prototype webapp showing off my skills",
+  "version": "1.0.0",
+  "main": ["Gruntfile.js", "app/**/*.*"],
+  "keywords": [
+    "Yeoman",
+    "Bootstrap",
+    "Ajax",
+    "RWD"
+  ],
+  "authors": ["Monde Sineke<nsineke@gmail.com>"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/S3ak/samewave-tech-test.git"
+  },
+  "private": false,
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
     "modernizr": "~2.8.2",
