@@ -28,6 +28,15 @@ This site was built using [Yeoman](https://github.com/yeoman/yeoman)
 3. Install dependencies with npm: npm i
 4. Run Grunt: grunt serve
 
+To view deploy ready site, open the index.html file in the dist folder
+
+
+---
+
+## TODO
+
+- [ ] adjust spacing
+
 
 ---
 
@@ -36,23 +45,3 @@ This site was built using [Yeoman](https://github.com/yeoman/yeoman)
 I use the [Semantic](http://semver.org/) Versioning guidelines. Sometimes we screw up, but we'll adhere to those rules whenever possible.
 
 
----
-
-## TODO
-
-- [x] create header
-- [x] create off canvas nav
-- [x] Add original fonts
-- [x] create Footer button
-- [x] adjust styling on Footer button
-- [x] style progress bar
-- [x] disable progress bar from user inputs
-- [x] Create list function
-- [x] fix font's on other browsers
-- [x] remove focus border from menu button
-- [x] add animations - issue with ajax
-- [x] add favicon
-- [x] add promises to ajax call
-- [x] Style Nav
-- [x] Fix header to top
-- [ ] adjust spacing
