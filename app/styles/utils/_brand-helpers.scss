@@ -51,7 +51,7 @@ $property: (
 @each $property-short, $property-full in $property {
 	@each $direction-short, $direction-full in $directions {
 		@each $size-name, $size-value in $size-list {
-			.#{$property-short}#{$direction-short}-#{$size-name} {#{$property-full}-#{$direction-full}: $size-value}
+			.#{$property-short}#{$direction-short}--#{$size-name} {#{$property-full}-#{$direction-full}: $size-value}
 		}
 	}
 }

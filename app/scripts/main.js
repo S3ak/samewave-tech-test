@@ -1,3 +1,4 @@
+/*globals WOW */
 var setRange = function (itemNo, itemScore){
   'use strict';
   $('#js-range-' + itemNo).attr('value', itemScore);
@@ -17,12 +18,7 @@ $(function(){
     $('.icon-menu_atom--bottom').toggleClass('icon-menu_atom--rotateup');
   };
 
-  $('#js-nav-trigger, .site-overlay').on('click', function() {
-    menuMorph();
-    if($('body').hasClass('pushy-active')) {
-      console.log('pushy is active');
-    }
-  });
+  $('#js-nav-trigger, .site-overlay').on('click', function() {menuMorph();});
 
   var headerHeight = $('#js-header').height();
   $('.pushy, .site-overlay').css('top', headerHeight);
@@ -64,18 +60,41 @@ $(function(){
       return htmlBlock;
   };
 
-  $.getJSON('/scripts/tasks.json', function(data) {
-    for (var i = 0, x = data.length; i < x ; i++) {
-      var taskId = data[i].id,
-          taskTitle = data[i].title,
-          taskOwner = data[i].owner,
-          htmlBlock = htmlBlockFunc(taskId, taskTitle, taskOwner);
-      $('#js-main').append(htmlBlock);
-      setRange(taskId, 0);
-    }
-  });
+  (function getTasks(){
+    $.getJSON('/scripts/tasks.json', function(data) {
+      $('#js-loading-tasks').hide('slow').remove();
+      for (var i = 0, x = data.length; i < x ; i++) {
+        var taskId = data[i].id,
+            taskTitle = data[i].title,
+            taskOwner = data[i].owner,
+            htmlBlock = htmlBlockFunc(taskId, taskTitle, taskOwner);
+        $('#js-main').append(htmlBlock);
+        setRange(taskId, 0);
+      }
+    }).fail(function() {
+        $('#js-loading-tasks').hide('slow').remove();
+        var failMessage = '<div class="task-item wow bounceInLeft">' +
+                  '<div class="row">' +
+                    '<article class="col-xs-12">' +
+                      '<h2 class="txt-title text-center">Failed to get data</h2>' +
+                      '<div class="row">' +
+                        '<div class="col-xs-12 progress-block">' +
+                          '<p class="text-center">Make sure your loading the correct external file and your on a server</p>' +
+                        '</div>' +
+                        '<!-- /. progress-block -->' +
+                      '</div>' +
+                      '<!-- /. row -->' +
+                    '</article>' +
+                  '</div>' +
+                  '<!-- /. row -->' +
+                  '<hr>' +
+                '</div>' +
+                '<!-- /. task-item -->';
+        $('#js-main').append(failMessage);
+    });
+  })();
 
-  new WOW().init(); // jshint ignore:line
+  new WOW().init();
 
   $('#js-header').headroom({
     tolerance : {
