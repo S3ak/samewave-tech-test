@@ -61,7 +61,7 @@ $(function(){
   };
 
   (function getTasks(){
-    $.getJSON('/scripts/tasks.json', function(data) {
+    $.getJSON('./scripts/tasks.json', function(data) {
       $('#js-loading-tasks').hide('slow').remove();
       for (var i = 0, x = data.length; i < x ; i++) {
         var taskId = data[i].id,

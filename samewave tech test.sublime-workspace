@@ -4,8 +4,48 @@
 		"selected_items":
 		[
 			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
 				"bac",
-				"background-color"
+				"background"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pos",
+				"pos-f	position: fixed;"
+			],
+			[
+				"z",
+				"z	z-index"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"color--",
+				"color--neutral"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"no",
+				"nowrap"
 			],
 			[
 				"back",
@@ -22,10 +62,6 @@
 			[
 				"scre",
 				"screen-lg-min	screen-lg-min"
-			],
-			[
-				"pos",
-				"pos-a	position: absolute;"
 			],
 			[
 				"h",
@@ -54,10 +90,6 @@
 			[
 				"color",
 				"color-pri"
-			],
-			[
-				"no",
-				"no-repeat"
 			],
 			[
 				"text",
@@ -106,10 +138,6 @@
 			[
 				"rgab",
 				"rgba()"
-			],
-			[
-				"border",
-				"border-top"
 			],
 			[
 				"val",
@@ -170,10 +198,6 @@
 			[
 				"add",
 				"addClass	.addClass()"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"rgba",
@@ -283,13 +307,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 11469,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 368.0,
 		"selected_items":
 		[
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"revel",
+				"File: Reveal"
+			],
+			[
+				"mark",
+				"Markdown HTML Preview"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"reve",
+				"Side Bar: Reveal File"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
 			[
 				"save",
 				"Project: Save As"
@@ -313,10 +389,6 @@
 			[
 				"close",
 				"File: Close All"
-			],
-			[
-				"reveal",
-				"Side Bar: Reveal File"
 			],
 			[
 				"comment",
@@ -343,10 +415,6 @@
 				"Project: Save As"
 			],
 			[
-				"settings",
-				"Preferences: Settings - User"
-			],
-			[
 				"isntall",
 				"Package Control: Install Package"
 			],
@@ -365,10 +433,6 @@
 			[
 				"section",
 				"Snippet: Comment - Full section comment"
-			],
-			[
-				"reve",
-				"Side Bar: Reveal File"
 			],
 			[
 				"beaut",
@@ -391,19 +455,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"mark",
-				"Markdown HTML Preview"
-			],
-			[
 				"markdow",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -444,10 +500,6 @@
 			],
 			[
 				"remov",
-				"Package Control: Remove Package"
-			],
-			[
-				"packa",
 				"Package Control: Remove Package"
 			],
 			[
@@ -535,7 +587,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 514.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -557,142 +609,149 @@
 	},
 	"expanded_folders":
 	[
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source"
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/utils",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/vendors",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/scss"
 	],
 	"file_history":
 	[
-		"/C/GeDoSaTo/config/ffxiiiimg/GeDoSaTo.ini",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Bmoe/party 2014/HTML/app/scripts/main.js",
-		"/D/library_vault/drop/Dropbox/dev/Ghost/ghost-0.5.3/core/server/api/configuration.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/Gruntfile.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/styles/main.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/slick.js/slick/slick.css",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/scripts/main.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/styles/_settings.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/index.html",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/slick.js/package.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/dist/index.html",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/app/styles/main.css",
-		"/D/library_vault/drop/Dropbox/dev/Ghost/ghost-0.5.3/Gruntfile.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/slick.js/slick/slick.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/package.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/dist/scripts/4c711aee.main.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/img-apng.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/number/MAX_INT.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/toNumber.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/nav-timing.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/notification.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/FXG Westgate assessment.sublime-project",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/.sass-cache/0e433b45a625e510c22c0f65a80e9ca679991369/_settings.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/sache.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/buffer-overrun.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/elem-output.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/elem-ruby.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/elem-track.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-mocha/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/adm-zip/.idea/scopes/scope_settings.xml",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/test/js/setup.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/node_modules/grunt-contrib-sass/docs/sass-examples.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/.sass-cache/d030695875e9b7ad419d1f00d93aa5a8e0049c5c/_variables.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/.sass-cache/9d9aec1ad1491a25d5439c273239204ed062aa11/_bootstrap.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/colour-pallete.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/FXG assignment/html/bower_components/modernizr/feature-detects/css-objectfit.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/CBR Test/html/Colour Pallete.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/dist/styles/775f79f8.main.css",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/Comic book assessment.sublime-project",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-connect/node_modules/portscanner/lib/portscanner.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/isPlainObject.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/package.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/.gitignore",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/index.html",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/_brand.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/brief.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/README.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/scss/font-awesome.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/bower.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/offset.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/animate.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/scss/_variables.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/package.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/vendors/_brand-bootstrap.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/base/_brand-base.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/layout/_brand-header.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/vendors/_brand-pushy.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/utils/_brand-helpers.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/.gitattributes",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/css/addGetHookIf.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/Gruntfile.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/scripts/main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/images/manifest.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/dist/scripts/5a2be0fc.main.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/dist/.htaccess",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/fonts/fontawesome-webfont.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/gamepad.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/css-backgroundrepeat.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/fonts/ProximaNova-Regular-webfont.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/utils/_brand-functions.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/url-data-uri.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/fullscreen-api.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/css-remunit.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/layout/_brand-footer.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/pushy/css/pushy.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/custom-protocol-handler.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/userdata.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/unicode.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/main.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/scripts/tasks.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/base/_brand-reset.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/components/_brand-buttons.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/components/_brand-task.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/base/_brand-typography.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/components/_brand-nav.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/dist/styles/fb08f411.main.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/test/qunit/run-qunit.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/quota-management-api.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/requestanimationframe.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/headroom.js/dist/jQuery.headroom.min.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/pushy/js/pushy.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/effects.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/vendors/_brand-animate.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/dist/media/fonts/b949dab4.fontawesome-webfont.woff2",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/samewave_tech_test.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/ajax/script.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/pushy/css/demo.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/layout/_brand-navigation.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/manipulation.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/dist/jquery.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/ajax.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/css-backgroundposition-shorthand.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/utils/_brand-mixins.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/scss/_mixins.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/less/mixins.less",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/images/icon_add_optimised.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_border-radius.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modular-scale/stylesheets/modular-scale/_ratios.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/images/icon_add.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modular-scale/stylesheets/modular-scale/_function.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/fading_entrances/fadeInUp.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/fonts/helvetica-neue-medium-1361522099-webfont.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/fading_exits/fadeOut.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/core/init.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/sliding_entrances/slideInDown.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/css/var/isHidden.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/fontawesome/less/stacked.less",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/attention_seekers/tada.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/elem-ruby.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/elem-track.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/bouncing_entrances/bounceInRight.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/bouncing_exits/bounceOutRight.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/layout/_brand-sidebar.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jQuery.mmenu/bower.json",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/css-resize.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/sidr/jquery.sidr.min.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/sidr/stylesheets/jquery.sidr.light.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/blob-constructor.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/sliding_exits/slideOutRight.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/intro.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_input-groups.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/notification.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/effects/Tween.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_reset-filter.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_breadcrumbs.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/test/bower_components/chai/ReleaseNotes.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_background-variant.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/var/rnotwhite.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/feature-detects/workers-blobworkers.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/media/fonts/Montserrat-Bold-webfont.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap-sprockets.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/var/toString.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/bouncing_exits/bounceOut.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/resources/font.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/test/spec/test.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/fading_exits/fadeOutDown.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/modernizr/test/caniuse_files/Windsong-webfont.svg",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/test/bower_components/chai/History.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/animate.css/source/rotating_entrances/rotateInDownLeft.css",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/samewave tech test.sublime-project",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/brief.md",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/bower_components/jquery/src/attributes/prop.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/node_modules/grunt/node_modules/glob/test/pause-resume.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/layout/_brand-forms.scss",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/app/styles/layout/_brand-grid.scss",
 		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-sass/docs/sass-examples.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/sache.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/index.html",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/scripts/main.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/styles/main.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/CBR Test/brief.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/styles/_settings.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/villain.php",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/nav-timing.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-jshint/node_modules/jshint/data/non-ascii-identifier-start.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/feature-detects/notification.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-concat/tasks/lib/comment.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/feature-detects/css-objectfit.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/Gruntfile.js",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/test/js/setup.js",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/test/bower_components/chai/README.md",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-cssmin/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/node_modules/pako/dist/pako.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/feature-detects/pointerlock-api.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/number/MAX_INT.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/font-awesome/less/mixins.less",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/object/mixIn.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-contrib-uglify/node_modules/uglify-js/test/compress/issue-59.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/font-awesome/scss/_mixins.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_mixins.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-mocha/node_modules/.bin/_mocha",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-modernizr/_assets/grunt-modernizr.sublime-project",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/jquery/src/attributes/prop.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt/node_modules/glob/test/pause-resume.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/data/prefixes.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeEditorsNSData.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/array/reject.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/.sass-cache/b6e0ce18d3431b1ffb112ec64919ead0bd22f847/main.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/hero.php",
-		"/D/library_vault/drop/Dropbox/dev/tutorials/Lynda.com - Javascript and AJAX/Exercise Files/04-02/workingfolder/ajax/data.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/input-number.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
-		"/D/library_vault/googledrive/Documents/D.E.A.D Tau/Digital Blacksmith proper/clients/Seak Digital/Comic Book website/Comic-Book-Colour-Swatch.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/comic_publishers.php",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/bower_components/modernizr/test/caniuse_files/ga.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/app/test.txt",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/html/.sass-cache/894d0483ec3e7f9403408879befe627741c75c0c/_text-emphasis.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.sass-cache/cae6753c0b3a78f94b368754401c297ea8f17334/_buttons.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.sass-cache/be0a2f1b1e97153a773c0be0fe3d3fe547ed75bd/_buttons.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/postcss/node_modules/js-base64/base64_utf8",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/res/web fonts/stylesheet.css",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.tmp/styles/main.css",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/.sass-cache/b6e0ce18d3431b1ffb112ec64919ead0bd22f847/main.scssc",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/app/styles/main.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-wiredep/node_modules/wiredep/lib/inject-dependencies.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/app/index.html",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-contrib-sass/docs/sass-examples.md",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/bootstrap-sass-official/sache.json",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/bower_components/font-awesome/scss/_variables.scss",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-mocha/phantomjs/main.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/app/scripts/main.js",
-		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/Comic Book Website/webapp/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js"
+		"/C/Users/Nkululeko/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/.sass-cache/e447e2b6b597e9b91b88870bcb5d7444d5647da1/_responsive-embed.scssc",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/number/MAX_INT.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/isEmpty.js",
+		"/D/library_vault/drop/Dropbox/DBS/Clients/Seak Digital/same wave/source/node_modules/grunt-wiredep/node_modules/wiredep/lib/inject-dependencies.js"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -707,134 +766,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"slick",
-			"hint",
+			"copy",
+			"json",
+			"fontawesome",
+			"fontawesome\nfontawesome",
+			"../fonts/",
+			"$fa-font-path",
+			"$fa-font-path:",
+			"ffffff",
+			"mt--xs",
+			"' +",
+			"getTasks",
+			"\"",
+			"false",
+			"htmlmin",
+			"bootstrap",
+			"boot",
+			"boos",
+			"boostr",
+			"boostra",
+			"boostrap",
+			"'',",
 			"wiredep",
-			"cssmin",
+			"uglify",
+			"<%= yeoman.dist %>",
+			"usemin",
+			"useming",
 			"true",
-			"col-md-4",
-			"color--neautral",
-			"aside-nav",
-			"jshint",
-			"left",
-			"nav",
-			"aside",
-			"h2",
-			"content-body",
-			"content-header",
-			"buttons",
-			"info",
-			"darken(",
-			"-bg, 5%",
-			"-bg",
-			"border",
-			"class=\"\"",
-			"img-responsive",
-			"<li>",
-			"margin",
-			"div",
-			"90px",
-			"content-pad",
-			"span",
-			"accent",
-			"h5",
-			"sub-searc\"",
-			"sub-searc",
-			"div",
-			"class=\"sec-",
-			";\n",
-			"fa-2x",
-			"pri",
-			"\"twitter-control",
-			"twitter-control",
-			"3x",
-			"fa ",
-			"article",
-			"twitter-control-con",
-			"div",
-			"content-header",
-			"col-md-9 ",
-			".font-size-",
-			"size-",
-			"color-accent",
-			"$headings-line-height",
-			"line-height",
-			"-1px",
-			"margin-bottom",
-			".nav-justified",
-			"nav-justified",
-			"orbit",
-			"h2",
-			"link",
-			"a {",
-			"$nav-tabs-link-hover-border-color",
-			".nav-tabs",
-			"nav-tabs",
-			".nav-tabs",
-			".nav-tabs.nav-justified",
-			"tab-",
-			"-",
-			"Pri",
-			".nav-tabs",
-			"nav-tabs",
-			".nav {",
-			"padding",
-			"tab",
-			"radius",
-			"hrs",
+			"svg",
+			"wiredep",
+			"task-item",
+			"200px",
+			"-left",
+			".pushy-left",
+			"-100",
+			"class=\"task-item",
+			"task-item",
+			";",
+			"fadeInRight",
+			".icon-menu",
+			".menu-btn",
+			"    outline: none",
+			"menu-btn",
 			"button",
-			"i",
-			"lli",
+			"item-1",
+			"data",
+			"items",
+			"ter",
+			"name",
+			"<input type=\"range\" ",
+			"<div class=\"task-item\"",
+			".txt-title",
+			"txt-title",
+			"icon-menu_atom",
+			"task-deadline",
+			"small",
+			"task-progress-score",
+			"$color--ter",
+			"task-progress-bar--color",
+			"task-progress-bar--color(ter)",
+			"task-progress-bar_thumb--color(ter)",
+			"task-progress-bar_thumb--color(ter",
+			"thumb {",
+			"@include task-progress-bar_thumb--ter;",
+			"task-progress-bar_track--color(ter)",
+			" @include task-progress-bar_track--ter",
+			"@include ",
+			"@include",
+			"pri",
+			"progress-bar_thumb",
+			"progress-bar_track",
+			"$progress-bar--height",
+			"height: 20px;",
+			"@extend %progress-bar_track;",
+			"progress-bar_track",
+			"@extend",
+			"@extend %",
+			"      margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */",
+			"progress-bar__track",
+			"__",
+			"20px",
+			"autopre",
+			"$color--neutral",
+			"$color--neutral,",
+			"255,255,255",
+			"#ffffff",
+			"neutral,",
+			"255,255,255",
+			"background",
+			"js",
+			"col-sm",
+			"sm-",
+			"menuBtn",
+			"200px",
+			".push",
+			"-200px",
+			"100px",
+			";",
+			"button",
+			"hr {",
+			"hr",
+			"hr {",
+			"hr",
+			"icon-menu",
+			"icon-menu ",
+			"gutter",
+			"//",
 			"div",
-			"true",
-			"pills",
-			"autoprefixer",
-			"slider",
-			"autoprefixer",
-			"grunt-autoprefixer",
-			"@mixin box-shadow",
-			"box-shadow",
-			"$modal-content-bg",
-			"modal",
-			"danger",
-			"input",
-			"z-index",
-			"$zindex-navbar",
-			"z-inde",
-			"js-input-hero-results",
-			"heroResults",
-			"valVil",
-			"heroResultItem",
-			"js-input-hero-results",
-			"  $('.js-input-hero-results-items').click(function() {\n    heroResultItem = $(this).text();\n  });",
-			"js-input-hero-results-items",
-			"s-input-hero-results-items",
-			"heroResultItem ",
-			"js-inputHeroVal-results",
-			"js-input-hero-results-items",
-			"valHero",
-			"input-hero-results",
-			"hide",
-			"output",
-			"ul",
-			"output",
-			"results-hero-list",
-			"hint",
-			"keydown",
-			"key",
-			"s-inputHeroVal-results",
-			"heroResults",
-			"valHero",
-			"control-label\"",
-			"results-hero-list",
-			"$('#js-inputHeroVal-results')",
-			"js-input-hero-results",
-			"Things",
-			"results-hero-item",
-			"valHero",
-			"urlpub",
-			"urlPub",
-			"urlpub"
+			"color--dark-",
+			"article",
+			"$size-list-hard",
+			".allow-trans-sl",
+			"size",
+			"font",
+			"ms",
+			"floor",
+			"$brand--",
+			"$brand--neutral",
+			"$ms-",
+			"$ms-sm",
+			"$ms--sm",
+			"$ms-xs",
+			"$color-stable",
+			"$color-neutral",
+			"$color-sec",
+			"$color-pri",
+			"$color-",
+			"$color",
+			","
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -842,6 +901,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$ms--xs",
 			""
 		],
 		"reverse": false,
@@ -853,8 +913,101 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8865,
+								8865
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7670.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -913,28 +1066,252 @@
 		"selected_items":
 		[
 			[
-				"inde",
-				"app\\index.html"
+				"grunt",
+				"Gruntfile.js"
 			],
 			[
-				"main",
-				"app\\styles\\main.scss"
+				"brand",
+				"app\\styles\\_brand.scss"
 			],
 			[
 				"bower",
 				"bower.json"
 			],
 			[
-				"mian",
+				"read",
+				"README.md"
+			],
+			[
+				"inde",
+				"app\\index.html"
+			],
+			[
+				"index",
+				"app\\index.html"
+			],
+			[
+				"pakca",
+				"package.json"
+			],
+			[
+				"bran",
+				"app\\styles\\_brand.scss"
+			],
+			[
+				"brand-boot",
+				"app\\styles\\vendors\\_brand-bootstrap.scss"
+			],
+			[
+				"rad",
+				"README.md"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"helpers",
+				"app\\styles\\utils\\_brand-helpers.scss"
+			],
+			[
+				"pushy",
+				"app\\styles\\vendors\\_brand-pushy.scss"
+			],
+			[
+				"i",
+				"app\\index.html"
+			],
+			[
+				"brand-pushy",
+				"app\\styles\\vendors\\_brand-pushy.scss"
+			],
+			[
+				"ushy",
+				"bower_components\\pushy\\css\\pushy.css"
+			],
+			[
+				"idnex",
+				"app\\index.html"
+			],
+			[
+				"main",
 				"app\\scripts\\main.js"
 			],
 			[
-				"grunt",
-				"Gruntfile.js"
+				"brand-buttons",
+				"app\\styles\\components\\_brand-buttons.scss"
 			],
 			[
 				"button",
 				"bower_components\\bootstrap-sass-official\\assets\\stylesheets\\bootstrap\\_buttons.scss"
+			],
+			[
+				"brand-task",
+				"app\\styles\\components\\_brand-task.scss"
+			],
+			[
+				"buttons",
+				"app\\styles\\components\\_brand-buttons.scss"
+			],
+			[
+				"function",
+				"app\\styles\\utils\\_brand-functions.scss"
+			],
+			[
+				"rese",
+				"app\\styles\\base\\_brand-reset.scss"
+			],
+			[
+				"brand-base",
+				"app\\styles\\base\\_brand-base.scss"
+			],
+			[
+				"pushy.scss",
+				"app\\styles\\vendors\\_brand-pushy.scss"
+			],
+			[
+				"header",
+				"app\\styles\\layout\\_brand-header.scss"
+			],
+			[
+				"brand-bs",
+				"app\\styles\\base\\_brand-base.scss"
+			],
+			[
+				"bowr",
+				"bower.json"
+			],
+			[
+				"head",
+				"app\\styles\\layout\\_brand-header.scss"
+			],
+			[
+				"bwoer",
+				"bower.json"
+			],
+			[
+				"brand-an",
+				"app\\styles\\vendors\\_brand-animate.scss"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"ra",
+				"README.md"
+			],
+			[
+				"brnad",
+				"app\\styles\\components\\_brand-buttons.scss"
+			],
+			[
+				"brnad-but",
+				"app\\styles\\components\\_brand-buttons.scss"
+			],
+			[
+				"brief",
+				"brief.md"
+			],
+			[
+				"typ",
+				"app\\styles\\base\\_brand-typography.scss"
+			],
+			[
+				"main.scs",
+				"app\\styles\\main.scss"
+			],
+			[
+				"tas",
+				"app\\scripts\\tasks.json"
+			],
+			[
+				"mai",
+				"app\\scripts\\main.js"
+			],
+			[
+				"br",
+				"brief.md"
+			],
+			[
+				"task",
+				"app\\styles\\components\\_brand-task.scss"
+			],
+			[
+				"brand-helpers",
+				"app\\styles\\utils\\_brand-helpers.scss"
+			],
+			[
+				"brand-he",
+				"app\\styles\\layout\\_brand-header.scss"
+			],
+			[
+				"brand-mixn",
+				"app\\styles\\utils\\_brand-mixins.scss"
+			],
+			[
+				"mixin",
+				"bower_components\\fontawesome\\less\\mixins.less"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"rade",
+				"README.md"
+			],
+			[
+				"heleprs",
+				"app\\styles\\utils\\_brand-helpers.scss"
+			],
+			[
+				"functions",
+				"app\\styles\\utils\\_brand-functions.scss"
+			],
+			[
+				"footer",
+				"app\\styles\\layout\\_brand-footer.scss"
+			],
+			[
+				"brand.s",
+				"app\\styles\\_brand.scss"
+			],
+			[
+				"typo",
+				"app\\styles\\base\\_brand-typography.scss"
+			],
+			[
+				"reset",
+				"app\\styles\\base\\_brand-reset.scss"
+			],
+			[
+				"mian",
+				"app\\scripts\\main.js"
+			],
+			[
+				"bra",
+				"app\\styles\\_brand.scss"
+			],
+			[
+				"brand-but",
+				"app\\styles\\components\\_brand-buttons.scss"
+			],
+			[
+				"brand-rese",
+				"app\\styles\\base\\_brand-reset.scss"
+			],
+			[
+				"brand-boo",
+				"app\\styles\\vendors\\_brand-bootstrap.scss"
+			],
+			[
+				"boot",
+				"bower_components\\bootstrap-sass-official\\assets\\javascripts\\bootstrap.js"
+			],
+			[
+				"projec",
+				"samewave tech test.sublime-project"
 			],
 			[
 				"main.js",
@@ -951,14 +1328,6 @@
 			[
 				"_settigns",
 				"app\\styles\\_settings.scss"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"index",
-				"app\\index.html"
 			],
 			[
 				"_variabe",
@@ -994,10 +1363,6 @@
 			],
 			[
 				"idne",
-				"app\\index.html"
-			],
-			[
-				"idnex",
 				"app\\index.html"
 			]
 		],
@@ -1038,7 +1403,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 274.0,
 	"status_bar_visible": true,
 	"template_settings":
