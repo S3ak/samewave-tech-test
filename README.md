@@ -19,5 +19,5 @@ Creator: Monde Sineke <nsineke@gmail.com>
 - [ ] add animations - issue with ajax
 - [ ] add favicon
 - [ ] add promises to ajax call
-- [ ] Style Nav
+- [x] Style Nav
 - [x] Fix header to top

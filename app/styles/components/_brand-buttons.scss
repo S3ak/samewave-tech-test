@@ -9,7 +9,7 @@
 .btn-add {
   max-width: 50px;
   @include respond-to(small) {
-    max-width: 100px;
+    max-width: 80px;
   }
   path:nth-child(1) {
     @extend .allow-trans-fs;
@@ -19,6 +19,7 @@
     fill: $color--neutral;
   }
   &:hover {
+    @extend .rubberBand;
     path:nth-child(1) {
       fill: $color--ter;
     }
