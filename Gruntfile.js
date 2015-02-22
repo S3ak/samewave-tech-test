@@ -284,15 +284,15 @@ module.exports = function (grunt) {
     htmlmin: {
       dist: {
         options: {
-          collapseBooleanAttributes: false,
-          collapseWhitespace: false,
-          conservativeCollapse: false,
-          removeAttributeQuotes: false,
-          removeCommentsFromCDATA: false,
-          removeEmptyAttributes: false,
-          removeOptionalTags: false,
-          removeRedundantAttributes: false,
-          useShortDoctype: false,
+          collapseBooleanAttributes: true,
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          removeAttributeQuotes: true,
+          removeCommentsFromCDATA: true,
+          removeEmptyAttributes: true,
+          removeOptionalTags: true,
+          removeRedundantAttributes: true,
+          useShortDoctype: true,
           keepClosingSlash: true
         },
         files: [{
@@ -352,12 +352,6 @@ module.exports = function (grunt) {
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
-        }, {
-          expand: true,
-          dot: true,
-          cwd: '.',
-          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
-          dest: '<%= config.dist %>'
         }]
       },
       styles: {

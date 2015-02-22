@@ -1,8 +1,8 @@
-function setRange(itemNo, itemScore){
+var setRange = function (itemNo, itemScore){
   'use strict';
   $('#js-range-' + itemNo).attr('value', itemScore);
   $('#js-range-result-' + itemNo).text(itemScore);
-}
+};
 
 setRange('static-1', 80);
 setRange('static-2', 50);
@@ -27,12 +27,8 @@ $(function(){
   var headerHeight = $('#js-header').height();
   $('.pushy, .site-overlay').css('top', headerHeight);
 
-  $.getJSON('/scripts/tasks.json', function(data) {
-    for (var i = 0, x = data.length; i < x ; i++) {
-      var taskId = data[i].id,
-          taskTitle = data[i].title,
-          taskOwner = data[i].owner;
-          var htmlBlock = '<div class="task-item wow bounceInLeft" id="js-task-item-' + taskId + '">' +
+  var htmlBlockFunc = function (taskId, taskTitle, taskOwner) {
+    var htmlBlock = '<div class="task-item wow bounceInLeft" id="js-task-item-' + taskId + '">' +
                   '<div class="row">' +
                     '<article class="col-xs-12">' +
                       '<h2 class="txt-title">' + taskTitle + '</h2>' +
@@ -65,6 +61,15 @@ $(function(){
                   '<hr>' +
                 '</div>' +
                 '<!-- /. task-item -->';
+      return htmlBlock;
+  };
+
+  $.getJSON('/scripts/tasks.json', function(data) {
+    for (var i = 0, x = data.length; i < x ; i++) {
+      var taskId = data[i].id,
+          taskTitle = data[i].title,
+          taskOwner = data[i].owner,
+          htmlBlock = htmlBlockFunc(taskId, taskTitle, taskOwner);
       $('#js-main').append(htmlBlock);
       setRange(taskId, 0);
     }
@@ -78,6 +83,4 @@ $(function(){
       down : 0
     },
   });
-
-
 });
