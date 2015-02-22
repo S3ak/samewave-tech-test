@@ -1,8 +1,7 @@
 {
-  "name": "SameWave tech test",
+  "name": "sameWave-tech-test",
   "description": "prototype webapp showing off my skills",
-  "version": "1.0.0",
-  "main": ["Gruntfile.js", "app/**/*.*"],
+  "version": "1.0.1",
   "keywords": [
     "Yeoman",
     "Bootstrap",
@@ -36,6 +35,9 @@
     },
     "pushy": {
       "main": ["js/pushy.js"]
+    },
+    "fontawesome": {
+      "main": ["./scss/font-awesome.scss"]
     }
   }
 }
