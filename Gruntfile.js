@@ -348,6 +348,7 @@ module.exports = function (grunt) {
             'media/video/{,*/}*.webp',
             '{,*/}*.html',
             'media/fonts/{,*/}*.*'
+            'scripts/*.json'
           ]
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
