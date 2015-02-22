@@ -46,19 +46,15 @@ $brand-colors: (
   'qua': $color--qua
 );
 
-.color--neutral { color: $color--neutral;}
-  .color--stable { color: $color--stable;}
-  .color--dark { color: $color--dark;}
-  .color--pri { color: $color--pri;}
-  .color--sec { color: $color--sec;}
-  .color--ter { color: $color--ter;}
 
-.color--neutral-bg { background: $color--neutral;}
-  .color--stable-bg { background: $color--stable;}
-  .color--dark-bg { background: $color--dark;}
-  .color--pri-bg { background: $color--pri;}
-  .color--sec-bg { background: $color--sec;}
-  .color--ter-bg { background: $color--ter;}
+// .color--neutral { color: $color--neutral;}
+// .color--neutral-bg { background: $color--neutral;}
+// .color--neutral-fill { fill: $color--neutral;}
+@each $brand-alias, $brand-color in $brand-colors {
+  .color--#{$brand-alias} {color: $brand-color}
+  .color--#{$brand-alias}-bg {background: $brand-color}
+  .color--#{$brand-alias}-fill {fill: $brand-color}
+} // each
 
 $font--pri--reg: proxima--reg;
   $font-pri--bold: proxima--bold;
