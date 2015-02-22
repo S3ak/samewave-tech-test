@@ -60,7 +60,8 @@ $brand-colors: (
   .color--sec-bg { background: $color--sec;}
   .color--ter-bg { background: $color--ter;}
 
-$font--pri--reg: montserrat;
-  $font-pri--bold: montserrat--bold;
+$font--pri--reg: proxima--reg;
+  $font-pri--bold: proxima--bold;
+  $font-pri--italics: proxima--italic;
 
 $font--sec--reg: adelle;

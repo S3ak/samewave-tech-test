@@ -2,17 +2,19 @@
 
 @each $font-name, $font-file in
   (adelle, adelleregularwebfont),
-  (helvetica, helvetica-neue-medium-1361522099-webfont),
-  (montserrat, Montserrat-Regular-webfont),
-  (montserrat--bold, Montserrat-Bold-webfont),
+  (proxima--reg, ProximaNova-RegularItalic-webfont),
+  (proxima--bold, ProximaNova-Bold-webfont),
+  (proxima--italic, ProximaNova-RegularItalic-webfont),
       {
+        // I've commented out legacy formats as modern browsers support woff formats
         @font-face {
             font-family: $font-name;
-            src:    url('fonts/#{$font-file}.eot');
-            src:    url('fonts/#{$font-file}.eot?#iefix') format('embedded-opentype'),
-                    url('fonts/#{$font-file}.woff') format('woff'),
-                    url('fonts/#{$font-file}.ttf')  format('truetype'),
-                    url('fonts/#{$font-file}.svg##{$font-name}') format('svg');
+            // src:    url('fonts/#{$font-file}.eot');
+            src:    url('fonts/#{$font-file}.woff2') format('woff2'),
+                    url('fonts/#{$font-file}.woff') format('woff');
+                    // url('fonts/#{$font-file}.ttf')  format('truetype'),
+                    // url('fonts/#{$font-file}.svg##{$font-name}') format('svg');
+                    // url('fonts/#{$font-file}.eot?#iefix') format('embedded-opentype'),
             font-weight: normal;
             font-style: normal;
       }

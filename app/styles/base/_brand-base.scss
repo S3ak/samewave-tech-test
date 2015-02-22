@@ -23,19 +23,4 @@ hr {
 }
 
 
-.progress-bar {
-  width: 100%;
-}
 
-.name {
-  color: darken($color--stable, 10);
-}
-
-.sidr-overlay {
-  position: absolute;
-  display: none;
-  z-index: 9999;
-  background-color: rgba($color--dark, .5);
-  height: 100%;
-  width: 100%;
-}

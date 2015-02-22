@@ -17,7 +17,7 @@ $(function(){
     menuMorph();
   });
 
-  var headerHeight = $('header').height();
+  var headerHeight = $('#js-header').height();
 
   $('.pushy, .site-overlay').css('top', headerHeight);
 });

@@ -1,5 +1,5 @@
-header {
-
+.header_inner {
+  @include size-tb(padding, $ms--xl, $ms--md);
 }
 
 .icon-menu{

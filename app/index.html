@@ -28,16 +28,17 @@
 
   <!-- Pushy Menu -->
   <nav class="pushy pushy-left">
-      <ul>
-          <li><a href="#">Item 1</a></li>
-          <li><a href="#">Item 2</a></li>
+      <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Settings</a></li>
       </ul>
   </nav>
 
     <header class="color--dark-bg" id="js-header">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 header_inner">
             <h1 class="text-center">Tasks
               <button type="button" class="btn btn-null menu-btn [animated bounceInDown ] pull-right" id="js-nav-trigger" data-wow-delay="0.2s">
                 <span class="sr-only">Toggle navigation</span>
@@ -66,33 +67,29 @@
       <div class="container">
         <div class="row">
           <article class="col-xs-12">
-            <h2>Heading goes here reallly long though</h2>
+            <h2 class="txt-title">Heading goes here reallly long though</h2>
             <div class="row">
-              <div class="col-xs-6 col-sm-8 progress-block">
-              <div class="row">
-                <div class="col-sm-8">
-                  <div class="progress-bar">
-                    <input type="range" name="new" min="0" max="100" step="1" id="js-range-1">
-                    <output for=""></output>
+              <div class="col-xs-7 col-sm-8 progress-block">
+                <div class="row">
+                  <div class="col-xs-8">
+                    <div class="progress-bar">
+                      <input type="range" name="" min="0" max="100" step="1" id="js-range-1">
+                      <output for=""></output>
+                    </div>
+                    <!-- /. progress -->
                   </div>
-                  <!-- /. progress -->
-                </div>
-                <!-- /. col -->
+                  <!-- /. col -->
 
-                <div class="col-sm-4">
-                  <p><span id="js-range-result-1">100</span> of 100</p>
+                  <div class="col-xs-4">
+                    <p><span id="js-range-result-1">100</span> of 100</p>
+                  </div>
+                  <!-- /. col -->
                 </div>
-                <!-- /. col -->
+                <!-- /. progress-block -->
               </div>
               <!-- /. progress-block -->
 
-
-
-
-              </div>
-              <!-- /. progress-block -->
-
-              <div class="col-xs-6 col-sm-4 task-deadline [ text-uppercase text-right ]">
+              <div class="col-xs-5 col-sm-4 task-deadline [ text-uppercase text-right ]">
                 Due tomorrow
               </div>
               <!-- /. task-deadline -->

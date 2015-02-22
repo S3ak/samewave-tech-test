@@ -1,0 +1,33 @@
+.progress-bar {
+  width: 100%;
+}
+
+.name {
+  color: darken($color--stable, 10);
+}
+
+.sidr-overlay {
+  position: absolute;
+  display: none;
+  z-index: 9999;
+  background-color: rgba($color--dark, .5);
+  height: 100%;
+  width: 100%;
+}
+
+.txt-title {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: $font-family-sans-serif;
+  color: $color--dark;
+  &::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    background: rgba($color--neutral, 0);
+    background: linear-gradient(to right, rgba($color--neutral, 0) 0%, rgba($color--neutral, 1) 58%, rgba($color--neutral, 1) 100%);
+    width: 25%;
+    height: 48px;
+    pointer-events: none;
+  }
+}
