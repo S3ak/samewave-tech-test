@@ -17,3 +17,4 @@ Creator: Monde Sineke <nsineke@gmail.com>
 - [ ] adjust spacing
 - [ ] add animations
 - [ ] add favicon
+- [ ] fix font's on other browsers

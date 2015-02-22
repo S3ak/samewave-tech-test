@@ -1,18 +1,7 @@
-.progress-bar {
-  width: 100%;
-}
+
 
 .name {
   color: darken($color--stable, 10);
-}
-
-.sidr-overlay {
-  position: absolute;
-  display: none;
-  z-index: 9999;
-  background-color: rgba($color--dark, .5);
-  height: 100%;
-  width: 100%;
 }
 
 .txt-title {
@@ -30,4 +19,75 @@
     height: 48px;
     pointer-events: none;
   }
+}
+
+
+$task-progress-bar--height: 20px;
+
+@mixin task-progress-bar_track {
+  width: 100%;
+  height: $task-progress-bar--height;
+  cursor: pointer;
+  animate: 0.2s;
+  background: rgba($color--pri, 0.4);
+  border-radius: 20px;
+  border: 0px solid $color--neutral;
+}
+
+// placeholder has a bug use mixin instead
+@mixin task-progress-bar_thumb {
+  @include size(20px);
+  border-radius: 50%;
+  background: $color--pri;
+  cursor: pointer;
+  border: 0px solid rgba($color--neutral, 0);
+}
+
+.task-progress-bar {
+  width: 100%;
+  input[type="range"] {
+    appearance: none; /* Hides the slider so custom styles can be added */
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+
+    &::-webkit-slider-runnable-track {
+      @include task-progress-bar_track;
+    }
+    // can't comma-separate these type of selectors.
+    // Browsers will drop the entire selector.
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      @include task-progress-bar_thumb;
+      margin-top: 0px;
+    } // thumb
+
+    &::-moz-range-track {
+      @include task-progress-bar_track;
+    }
+    &::-moz-range-thumb {
+      @include task-progress-bar_thumb;
+    } // thumb
+
+    &::-ms-track {
+      width: 100%;
+      height: $task-progress-bar--height;
+      animate: 0.2s;
+      border-width: 2px 0;
+      cursor: pointer;
+      background: transparent;
+      border-color: transparent;
+      color:transparent;
+    }
+    &::-ms-fill-lower, &::-ms-fill-upper {
+      @include task-progress-bar_track;
+    }
+    &::-ms-thumb  {
+      @include task-progress-bar_thumb
+    } //thumb
+
+  } // input
 }
