@@ -44,9 +44,9 @@
                 <span class="sr-only">Toggle navigation</span>
 
                 <div class="icon-menu relative">
-                  <div class="icon-menu_atom icon-menu_atom--top"></div>
-                  <div class="icon-menu_atom icon-menu_atom--middle"></div>
-                  <div class="icon-menu_atom icon-menu_atom--bottom"></div>
+                  <div class="icon-menu_atom allow-trans-fs icon-menu_atom--top"></div>
+                  <div class="icon-menu_atom allow-trans-fs icon-menu_atom--middle"></div>
+                  <div class="icon-menu_atom allow-trans-fs icon-menu_atom--bottom"></div>
                 </div>
                 <!-- /. icon-menu -->
               </button>
@@ -64,42 +64,123 @@
     <div class="site-overlay"></div>
 
     <section>
-      <div class="container">
-        <div class="row">
-          <article class="col-xs-12">
-            <h2 class="txt-title">Heading goes here reallly long though</h2>
-            <div class="row">
-              <div class="col-xs-7 col-sm-8 progress-block">
-                <div class="row">
-                  <div class="col-xs-8">
-                    <div class="task-progress-bar task-progress-bar--ter">
-                      <input type="range" name="" min="0" max="100" step="1" id="js-range-1">
+      <div class="container" id="js-main">
+        <div class="task-item" id="js-task-item-static-1">
+          <div class="row">
+            <article class="col-xs-12">
+              <h2 class="txt-title">This is a green task</h2>
+              <div class="row">
+                <div class="col-xs-5 col-sm-8 progress-block">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="task-progress-bar task-progress-bar--ter">
+                        <input type="range" name="" min="0" max="100" step="1" id="js-range-static-1" disabled>
+                      </div>
+                      <!-- /. progress -->
                     </div>
-                    <!-- /. progress -->
-                  </div>
-                  <!-- /. col -->
+                    <!-- /. col -->
 
-                  <div class="col-xs-4">
-                    <p class="task-progress-score"><span id="js-range-result-1" class="color--ter">0</span> of <span class="color--ter">100</span></p>
+                    <div class="col-sm-4">
+                      <p class="task-progress-score"><span id="js-range-result-static-1" class="color--ter">0</span> of <span class="color--ter">100</span></p>
+                    </div>
+                    <!-- /. col -->
                   </div>
-                  <!-- /. col -->
+                  <!-- /. progress-block -->
                 </div>
                 <!-- /. progress-block -->
-              </div>
-              <!-- /. progress-block -->
 
-              <div class="col-xs-5 col-sm-4 task-deadline [ text-uppercase text-right ]">
-                Due tomorrow
+                <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
+                  Due tomorrow
+                </div>
+                <!-- /. task-deadline -->
               </div>
-              <!-- /. task-deadline -->
-            </div>
-            <!-- /. row -->
+              <!-- /. row -->
 
-            <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
-          </article>
+              <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+            </article>
+          </div>
+          <!-- /. row -->
+          <hr>
         </div>
-        <!-- /. row -->
-        <hr>
+        <!-- /. task-item -->
+
+        <div class="task-item" id="js-task-item-static-2">
+          <div class="row">
+            <article class="col-xs-12">
+              <h2 class="txt-title">This is a really long amber task</h2>
+              <div class="row">
+                <div class="col-xs-5 col-sm-8 progress-block">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="task-progress-bar task-progress-bar--qua">
+                        <input type="range" name="" min="0" max="100" step="1" id="js-range-static-2" disabled>
+                      </div>
+                      <!-- /. progress -->
+                    </div>
+                    <!-- /. col -->
+
+                    <div class="col-sm-4">
+                      <p class="task-progress-score"><span id="js-range-result-static-2" class="color--qua">0</span> of <span class="color--qua">100</span></p>
+                    </div>
+                    <!-- /. col -->
+                  </div>
+                  <!-- /. progress-block -->
+                </div>
+                <!-- /. progress-block -->
+
+                <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
+                  Due tomorrow
+                </div>
+                <!-- /. task-deadline -->
+              </div>
+              <!-- /. row -->
+
+              <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+            </article>
+          </div>
+          <!-- /. row -->
+          <hr>
+        </div>
+        <!-- /. task-item -->
+
+        <div class="task-item" id="js-task-item-static-3">
+          <div class="row">
+            <article class="col-xs-12">
+              <h2 class="txt-title color--stable"><i>This is a paused task</i></h2>
+              <div class="row">
+                <div class="col-xs-5 col-sm-8 progress-block">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="task-progress-bar task-progress-bar--stable">
+                        <input type="range" name="" min="0" max="100" step="1" id="js-range-static-3" disabled>
+                      </div>
+                      <!-- /. progress -->
+                    </div>
+                    <!-- /. col -->
+
+                    <div class="col-sm-4">
+                      <p class="task-progress-score"><span id="js-range-result-static-3" class="color--stable">0</span> of <span class="color--stable">100</span></p>
+                    </div>
+                    <!-- /. col -->
+                  </div>
+                  <!-- /. progress-block -->
+                </div>
+                <!-- /. progress-block -->
+
+                <div class="col-xs-7 col-sm-4 task-deadline [ text-uppercase text-right ]">
+
+                </div>
+                <!-- /. task-deadline -->
+              </div>
+              <!-- /. row -->
+
+              <p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">Joe Bloggs</p>
+            </article>
+          </div>
+          <!-- /. row -->
+          <hr>
+        </div>
+        <!-- /. task-item -->
 
       </div>
       <!-- /. container -->

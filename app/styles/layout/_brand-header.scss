@@ -2,21 +2,27 @@
   @include size-tb(padding, $ms--xl, $ms--md);
 }
 
-.icon-menu{
+.icon-menu {
       width: 50px;
       height: 8px + $ms--xs * 3;
       z-index: 1;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
+      &:hover {
+        .icon-menu_atom{
+          background: $color--neutral;
+        }
+      }
     }
 
     .icon-menu_atom {
       position: absolute;
       left: 0;
-      width: 50px;
+      width: 40px;
       height: 4px;
       pointer-events:none;
-      background: $color--neutral;
+      background: $color--pri;
+      border-radius: 20px;
       @extend .allow-trans-fs;
     }
 

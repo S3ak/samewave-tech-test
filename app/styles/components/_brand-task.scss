@@ -19,6 +19,9 @@
     height: 48px;
     pointer-events: none;
   }
+  &.color--stable {
+    color: $color--stable;
+  }
 }
 
 
@@ -92,21 +95,6 @@ $task-progress-bar--height: 20px;
   } // input
 }
 
-
-// @each $brand-alias, $brand-color in $brand-colors {
-//   .task-progress-bar_track--#{$brand-alias} {
-//     background: rgba($brand-color, 0.4);
-//   }
-// } // each
-
-// @mixin task-progress-bar_track--color($brand-alias) {
-//   @each $brand-alias, $brand-color in $brand-colors {
-//     .task-progress-bar--#{$brand-alias} {
-//       background: rgba($brand-color, 0.4);
-//     }
-//   } // each
-// }
-//
 @mixin task-progress-bar_track--color($brand-color) {
   background: rgba($brand-color, 0.4);
 }
@@ -143,5 +131,13 @@ $task-progress-bar--height: 20px;
 } // each
 
 .task-progress-score {
+  line-height: 20px;
+  margin-top: $ms--xs;
+  @include respond-to(small) {
+    margin-top: 0;
+  }
+}
+
+.task-deadline {
   line-height: 20px;
 }
