@@ -15,8 +15,8 @@ Creator: Monde Sineke <nsineke@gmail.com>
 - [x] Create list function
 - [x] fix font's on other browsers
 - [x] remove focus border from menu button
-- [ ] adjust spacing
 - [ ] add animations - issue with ajax
+- [ ] adjust spacing
 - [ ] add favicon
 - [ ] add promises to ajax call
 - [x] Style Nav

@@ -19,10 +19,12 @@ $(function(){
 
   $('#js-nav-trigger, .site-overlay').on('click', function() {
     menuMorph();
+    if($('body').hasClass('pushy-active')) {
+      console.log('pushy is active');
+    }
   });
 
   var headerHeight = $('#js-header').height();
-
   $('.pushy, .site-overlay').css('top', headerHeight);
 
   $.getJSON('/scripts/tasks.json', function(data) {
@@ -30,7 +32,7 @@ $(function(){
       var taskId = data[i].id,
           taskTitle = data[i].title,
           taskOwner = data[i].owner;
-          var htmlBlock = '<div class="task-item wow bounceinLeft" id="js-task-item-' + taskId + '">' +
+          var htmlBlock = '<div class="task-item wow bounceInLeft" id="js-task-item-' + taskId + '">' +
                   '<div class="row">' +
                     '<article class="col-xs-12">' +
                       '<h2 class="txt-title">' + taskTitle + '</h2>' +
@@ -56,7 +58,7 @@ $(function(){
                         '<!-- /. task-deadline -->' +
                       '</div>' +
                       '<!-- /. row -->' +
-                      '<p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">' + taskOwner+ '</p>' +
+                      '<p class="name text-capitalize"><img src="media/images/avatar-small.png" alt="Avator" class="mr-sm">' + taskOwner + '</p>' +
                     '</article>' +
                   '</div>' +
                   '<!-- /. row -->' +
@@ -70,10 +72,12 @@ $(function(){
 
   new WOW().init(); // jshint ignore:line
 
-  $('header').headroom({
+  $('#js-header').headroom({
     tolerance : {
       up : 5,
       down : 0
     },
   });
+
+
 });
