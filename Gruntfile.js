@@ -194,7 +194,18 @@ module.exports = function (grunt) {
       app: {
         ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/index.html'],
-        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
+        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+          'affix',
+          'alert',
+          'carousel',
+          'collapse',
+          'dropdown',
+          'tab',
+          'scrollspy',
+          'modal',
+          'tooltip',
+          'popover'
+        ]
       },
       sass: {
         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
@@ -210,7 +221,7 @@ module.exports = function (grunt) {
             '<%= config.dist %>/scripts/{,*/}*.js',
             '<%= config.dist %>/styles/{,*/}*.css',
             '<%= config.dist %>/media/images/{,*/}*.*',
-            '<%= config.dist %>/media/fonts/{,*/}*.*',
+            // '<%= config.dist %>/media/fonts/{,*/}*.*',
             '<%= config.dist %>/*.{ico,png}'
           ]
         }
@@ -234,10 +245,17 @@ module.exports = function (grunt) {
           '<%= config.dist %>',
           '<%= config.dist %>/media/images',
           '<%= config.dist %>/styles'
-        ]
+        ],
+        patterns: {
+          // FIXME While usemin won't have full support for revved files we have to put all references manually here
+          js: [
+              [/(images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg))/gm, 'Update the JS to reference our revved images']
+          ]
+        }
       },
       html: ['<%= config.dist %>/{,*/}*.html'],
-      css: ['<%= config.dist %>/styles/{,*/}*.css']
+      css: ['<%= config.dist %>/styles/{,*/}*.css'],
+      js: ['<%= config.dist %>/scripts/{,*/}*.js']
     },
 
     // The following *-min tasks produce minified files in the dist folder
@@ -266,15 +284,16 @@ module.exports = function (grunt) {
     htmlmin: {
       dist: {
         options: {
-          collapseBooleanAttributes: true,
-          collapseWhitespace: true,
-          conservativeCollapse: true,
-          removeAttributeQuotes: true,
-          removeCommentsFromCDATA: true,
-          removeEmptyAttributes: true,
-          removeOptionalTags: true,
-          removeRedundantAttributes: true,
-          useShortDoctype: true
+          collapseBooleanAttributes: false,
+          collapseWhitespace: false,
+          conservativeCollapse: false,
+          removeAttributeQuotes: false,
+          removeCommentsFromCDATA: false,
+          removeEmptyAttributes: false,
+          removeOptionalTags: false,
+          removeRedundantAttributes: false,
+          useShortDoctype: false,
+          keepClosingSlash: true
         },
         files: [{
           expand: true,
@@ -298,15 +317,20 @@ module.exports = function (grunt) {
     //     }
     //   }
     // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= config.dist %>/scripts/scripts.js': [
-    //         '<%= config.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
+    uglify: {
+      options: {
+        // mangle: false,
+        // compress: false,
+        // beautify: true
+      },
+      dist: {
+        files: {
+          '<%= config.dist %>/scripts/scripts.js': [
+            '<%= config.dist %>/scripts/scripts.js'
+          ]
+        }
+      }
+    },
     // concat: {
     //   dist: {}
     // },
