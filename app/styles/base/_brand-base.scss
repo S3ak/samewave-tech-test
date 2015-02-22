@@ -22,5 +22,8 @@ hr {
   padding: 0.2em 0;
 }
 
-
+$header-height: 141px;
+.body-content {
+  padding-top: $header-height;
+}
 

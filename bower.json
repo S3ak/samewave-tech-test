@@ -7,7 +7,8 @@
     "animate.css": "~3.2.1",
     "fontawesome": "~4.3.0",
     "pushy": "~0.9.2",
-    "WOW": "~1.0.3"
+    "WOW": "~1.0.3",
+    "headroom.js": "~0.7.0"
   },
   "devDependencies": {
     "modular-scale": "~2.0.6"
@@ -15,6 +16,9 @@
   "overrides": {
     "animate.css": {
       "main": "README.md"
+    },
+    "headroom.js": {
+      "main": ["dist/headroom.js", "dist/jQuery.headroom.js"]
     }
   }
 }

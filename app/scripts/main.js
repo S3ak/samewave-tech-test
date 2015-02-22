@@ -69,4 +69,11 @@ $(function(){
   });
 
   new WOW().init(); // jshint ignore:line
+
+  $('header').headroom({
+    tolerance : {
+      up : 5,
+      down : 0
+    },
+  });
 });
