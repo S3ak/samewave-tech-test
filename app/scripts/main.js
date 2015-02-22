@@ -32,7 +32,7 @@ $(function(){
           var htmlBlock = '<div class="task-item" id="js-task-item-' + taskId + '">' +
                   '<div class="row">' +
                     '<article class="col-xs-12">' +
-                      '<h2 class="txt-title" id="js-range-result-' + taskId + '">' + taskTitle + '</h2>' +
+                      '<h2 class="txt-title">' + taskTitle + '</h2>' +
                       '<div class="row">' +
                         '<div class="col-xs-5 col-sm-8 progress-block">' +
                           '<div class="row">' +
@@ -62,7 +62,8 @@ $(function(){
                   '<hr>' +
                 '</div>' +
                 '<!-- /. task-item -->';
-          $('#js-main').append(htmlBlock);
-    };
+      $('#js-main').append(htmlBlock);
+      setRange(taskId, 0);
+    }
   });
 });

@@ -2,7 +2,7 @@
 
 @each $font-name, $font-file in
   (adelle, adelleregularwebfont),
-  (proxima--reg, ProximaNova-RegularItalic-webfont),
+  (proxima--reg, ProximaNova-Regular-webfont),
   (proxima--bold, ProximaNova-Bold-webfont),
   (proxima--italic, ProximaNova-RegularItalic-webfont),
       {
@@ -10,8 +10,8 @@
         @font-face {
             font-family: $font-name;
             // src:    url('fonts/#{$font-file}.eot');
-            src:    url('fonts/#{$font-file}.woff2') format('woff2'),
-                    url('fonts/#{$font-file}.woff') format('woff');
+            src:    url('../media/fonts/#{$font-file}.woff2') format('woff2'),
+                    url('../media/fonts/#{$font-file}.woff') format('woff');
                     // url('fonts/#{$font-file}.ttf')  format('truetype'),
                     // url('fonts/#{$font-file}.svg##{$font-name}') format('svg');
                     // url('fonts/#{$font-file}.eot?#iefix') format('embedded-opentype'),
