@@ -10,6 +10,7 @@ setRange('static-3', 75);
 
 $(function(){
   'use strict';
+
   var menuMorph = function() {
     $('.icon-menu_atom--top').toggleClass('icon-menu_atom--rotatedown');
     $('.icon-menu_atom--middle').toggleClass('icon-menu_atom--hide-middle');
@@ -29,7 +30,7 @@ $(function(){
       var taskId = data[i].id,
           taskTitle = data[i].title,
           taskOwner = data[i].owner;
-          var htmlBlock = '<div class="task-item" id="js-task-item-' + taskId + '">' +
+          var htmlBlock = '<div class="task-item wow bounceinLeft" id="js-task-item-' + taskId + '">' +
                   '<div class="row">' +
                     '<article class="col-xs-12">' +
                       '<h2 class="txt-title">' + taskTitle + '</h2>' +
@@ -66,4 +67,6 @@ $(function(){
       setRange(taskId, 0);
     }
   });
+
+  new WOW().init(); // jshint ignore:line
 });

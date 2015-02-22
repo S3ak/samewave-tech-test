@@ -1,5 +1,9 @@
 .btn-null {
   background-color: transparent;
+  outline: 0;
+  &:focus, &:active {
+    outline: 0;
+  }
 }
 
 .btn-add {

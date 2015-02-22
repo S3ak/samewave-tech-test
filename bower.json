@@ -6,7 +6,8 @@
     "modernizr": "~2.8.2",
     "animate.css": "~3.2.1",
     "fontawesome": "~4.3.0",
-    "pushy": "~0.9.2"
+    "pushy": "~0.9.2",
+    "WOW": "~1.0.3"
   },
   "devDependencies": {
     "modular-scale": "~2.0.6"

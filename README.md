@@ -13,8 +13,11 @@ Creator: Monde Sineke <nsineke@gmail.com>
 - [x] style progress bar
 - [x] disable progress bar from user inputs
 - [x] Create list function
-- [ ] fix font's on other browsers
-- [ ] remove focus border from menu button
+- [x] fix font's on other browsers
+- [x] remove focus border from menu button
 - [ ] adjust spacing
-- [ ] add animations
+- [ ] add animations - issue with ajax
 - [ ] add favicon
+- [ ] add promises to ajax call
+- [ ] Style Nav
+- [ ] Fix header to top
